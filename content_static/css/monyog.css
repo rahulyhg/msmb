@@ -1,0 +1,462 @@
+*{
+    color: inherit;
+    text-decoration: none;
+}
+
+
+
+
+
+/*
+    Styling for the monyog premium tab.
+*/
+/*
+    Absolutely positioned CSS elements are placed such that other elements 
+    behave as if they don't exist. They can overlap. I want this for money-back.
+*/
+#monyog-premium,#sqlyog-premium{
+    position: relative;
+}
+
+#money-back{
+    position: absolute;
+    margin: 0 auto;
+    right: 20px;
+    top: 20px;
+    padding: 0;
+    z-index: 1;
+
+}
+
+
+
+
+
+
+
+
+
+
+/*
+    Styling for the product prices table.
+*/
+/*
+    Styling for the MONyog version headings.
+*/
+div > div.headings{
+    padding-bottom: 0;
+    color: white;
+}
+.headings div{
+    margin-top: 33px;
+}
+
+
+
+
+
+
+
+
+/*
+    Styling for the Enterprise version heading. It is 20px taller.
+*/
+.headings div.enterprise-version{
+    margin-top: 0px;
+    height: 80px;
+    line-height: 80px;
+}
+/*
+    Styling for the the enterprise version in the product prices table.
+*/
+.enterprise-version{
+    width: 218px;
+    max-width: 218px;
+    border-left: 1px solid #d4ebff;
+    border-right: 1px solid #d4ebff;
+}
+
+
+.headings div.enterprise-version,
+.wy-inner-fourth.enterprise-version ul li div{
+    border-bottom-color: #0067bb;
+}
+.enterprise-version,
+.headings .enterprise-version,
+.wy-inner-fourth.enterprise-version ul{
+    background-color: #007bd7;
+}
+.headings div,
+.wy-inner-fourth ul{
+    color: inherit;
+    display: block;
+    background: #1d75d6;
+    list-style: none;
+}
+/*
+    Make the background of the headings div transparent.
+*/
+.wy-inner-fourth ul.names{
+    background: transparent;
+}
+/*
+    The version the user wants to purchase.
+*/
+.selected-purchase{
+    background: #285bab;
+}
+/*
+    Styling for the buy div inside a price cell.
+*/
+.wy-inner-fourth ul li a div.buy-div{
+    width: 100px;
+    position: absolute;
+    height:35px;
+    line-height: 35px;
+    left: 160px;
+    top: 5px;
+    border: 1px solid #87ca2b;
+    padding:0px;
+}
+
+
+.wy-inner-fourth ul li a[href$="email-form-container"] div.buy-div{
+    width: 80px; 
+    left: 180px;
+    height:35px;
+}
+
+
+.wy-inner-fourth ul li{
+    position: relative;
+}
+.headings div,
+.wy-inner-fourth ul li div{
+    position: relative;
+    height: 47px;
+    line-height: 47px;
+    border-bottom:1px solid #3598da;
+    vertical-align: middle;
+}
+.wy-inner-fourth ul li div.multiline .wy-font-level-4{
+    line-height: 26px;
+}
+
+.wy-inner-fourth ul li div.multiline .wy-font-level-5{
+    line-height: 21px;
+}
+.wy-inner-fourth ul li div{
+    padding-left:12px;
+}
+/*
+    Add space between the buy image button and the price.
+*/
+.wy-inner-fourth ul li div .wy-img-button{
+    padding-left: 14px;
+}
+.wy-inner-fourth.titles{
+    max-width: 285px;
+    width: 285px;
+}
+.wy-inner-fourth.titles ul li div{
+    padding-right: 25px;
+    border-bottom-color: #B4e2f6;
+}
+
+
+
+
+
+
+
+
+/*
+    Styling for image buttons.
+*/
+/*
+The following are id based selectors. They are ids of image buttons. These
+buttons use a common sprite. The background position attribute enables the
+icons to display its image.
+*/
+#aws-marketplace .wy-img-button{
+    width: 250px;
+    height: 55px;   
+    background-position: 0 -130px;
+}
+#aws-marketplace.wy-button,
+#hp-marketplace.wy-button{
+    height: 55px;
+}
+#hp-marketplace .wy-img-button{
+    width: 150px;
+    height: 50px;  
+    background-position: -270px -130px;
+}
+#double-quote{
+    height:60px;
+    width: 60px;
+    background-position: -335px 0px;
+}
+/*
+The following are class based selectors. They are classes of image buttons. These 
+buttons use a common sprite. The background position attribute enables the
+icons to display its image.
+*/
+.tick-mark{
+    width:20px;
+    height:20px;
+    background-position: -245px -75px;
+}
+.buy-button{
+    height: 15px;
+    width: 5px;
+    background-position: -146px -80px;
+}
+.email-button{
+    height: 20px;
+    width: 10px;
+    background-position: -7px -188px;
+    vertical-align: middle;
+}
+.selected{
+    background-position: -400px -65px;
+    width:40px;
+    height:40px;
+}
+.unselected{
+    background-position: -400px 2.5px;
+    width:40px;
+    height:40px;
+}
+.small-image{
+    width: 20px;
+    height: 20px;
+}
+.feature-present{
+    background-position: -350px -70px;
+}
+.feature-absent{
+    background-position: -280px -70px;
+}
+.selected.small-image{
+    background-position: -415px -117px;
+}   
+.unselected.small-image{
+    background-position: -415px -142px;
+}
+.selected.radio-button{
+    background-position: -1px -60px;
+}
+.unselected.radio-button{
+    background-position: -70px -60px;
+}
+
+
+
+
+
+
+
+/*
+    Styling for 64bit and 32 bit radio buttons
+*/
+form  div.bit-block{
+    display: block;
+    width: 150px;
+    height: 100px;
+    line-height: 100px;
+    padding:0;
+    margin:0;
+}
+
+
+
+
+
+
+
+/*
+    Styling for the feature list table.
+*/
+.feature-list-table{
+
+}
+.feature-list-column{
+
+}
+.feature-list-table .feature-table-titles-column dt a{
+    text-decoration: none;
+}
+.feature-table-titles-column{
+    width: 407px;
+}
+.feature-list-product-column{
+    width: 171px;
+}
+.feature-list-table .feature-list-column ul div{
+
+    height: 47px;
+    line-height: 47px;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-left-width: 0px ;
+}
+
+
+.feature-list-table .feature-list-column ul{
+    list-style-type: none;
+}
+
+
+.feature-list-table .feature-table-titles-column ul li:first-child div{
+
+    border-bottom-color: #007bd7;
+}
+/*
+ *  I want the even feature list columns to have a specific color.
+*/
+.feature-list-column:nth-child(even){
+    background: #007bd7;
+}
+
+.even{
+    background: #007bd7;
+}
+
+.feature-list-column:nth-child(even) div{
+    border-bottom-color:#46a3e4;
+}
+
+.even div{
+    border-bottom-color:#46a3e4;
+}
+
+.feature-list-column:nth-child(odd){
+    background: #1D75D6;
+}
+
+.odd{
+    background: #1D75D6;
+}
+
+.feature-list-column:nth-child(odd) div{
+    border-bottom-color: #469dbc;
+}
+
+.odd div{
+    border-bottom-color: #469dbc;
+}
+
+
+
+
+
+/*
+    Styling for the quick link buttons
+*/
+
+#download-whitepaper{
+    background-position: -151px -1px;
+}
+#top-10-features{
+    background-position: -90px -1px;
+}
+#community{
+    background-position: -205px -1px;
+}
+
+#documentation {
+    height: 55px;
+    width: 56px;
+    margin-right: -7px;
+    background-position: -383px -1px;
+}
+
+#faqs-button{
+    width: 60px;
+    background-position: -259px -1px;
+}
+#screenshots{
+    width:70px;
+    background-position: -10px 0px;
+    margin-right: -10px;
+}
+#monyog-premium dt, #sqlyog-premium dt{
+    display: inline-block;
+}
+
+
+
+
+
+/*
+    Styling for tooltip showing information about SMEs.
+*/
+#only-for-smes
+{
+    text-decoration: none;
+    cursor: pointer;
+    border-bottom:1px dotted;
+}
+#only-for-sme-tooltip{
+    padding: 10px 10px 0px 10px;
+    display: none;
+    z-index: 999999;
+    position: absolute;
+    width:300px;
+    height: 141px;
+    clear: both;
+    margin-top:-239px;
+    margin-left: 100px;
+    background: #d3e9f6;
+    border: 1px solid #9BCCEA;
+    
+}
+
+.sme.tooltip-bottom-speech-marker{
+    margin-top:-102px;
+    margin-left: 150px;
+    overflow: visible;
+    z-index:9999999;
+}
+
+/*
+    Styling for tooltip showing information about remote DBAs.
+*/
+#remote-dba
+{
+    text-decoration: none;
+    cursor: pointer;
+    border-bottom:1px dotted;
+}
+#remote-dba-tooltip{
+    padding: 10px 10px 0px 10px;
+    display: none;
+    z-index: 999999;
+    position: absolute;
+    width:300px;
+    height: 243px;
+    clear: both;
+    margin-top:-291px;
+    margin-left: 100px;
+    background: #d3e9f6;
+    border: 1px solid #9BCCEA;
+    overflow: visible;
+}
+
+.remote-dba.tooltip-bottom-speech-marker{
+    margin-top:-52px;
+    margin-left: 150px;
+    overflow: visible;
+    z-index:9999999;
+}
+
+#view-all-features{
+    height: 47px;
+    line-height: 47px;
+}
+
+
+.monyog-video-thumbnail{
+    border :1px solid #CCC;
+}

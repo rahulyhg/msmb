@@ -1,0 +1,71 @@
+.homeinbody				{ margin:0px; background:url(../images/main_bg_inner.jpg) repeat-x; }
+.menuinnerbg			{ background-color:#fff9d4; border:1px solid #fbe292;}
+.menuinnerbg a 			{ background:url(../images/menu_line_bg.jpg) no-repeat 0px 24px; width:165px; height:22px; display:block; padding:5px 0px 0px 5px; font-family:arial; font-size:12px; color:#333333; text-decoration:none; }
+.menuinnerbg a:hover	{ background:url(../images/menu_box_bg.jpg) no-repeat 0px 0px; width:165px; height:22px; display:block; padding:5px 0px 0px 5px; font-family:arial; font-size:12px; color:#db1a15; text-decoration:none; }
+.titlebg				{ background:url(../images/inner_title_bg.jpg) top left no-repeat; width:164px; height:31px;}
+h1.title				{ font-family:Arial; font-size:16px; color:#dd1815; font-weight:bold; margin:0px; padding:7px 0px 0px 0px; text-align:center;}
+.menuend				{ background-color:#fcd15c; border-right:1px solid #ad590a; border-left:1px solid #ad590a; border-bottom:1px solid #ad590a;}
+.menuend1				{ background-color:#fcd15c; border-right:1px solid #ad590a; border-left:1px solid #ad590a; }
+.menuend2				{ ackground-color:#fcd15c; border-right:1px solid #ad590a; border-left:1px solid #ad590a; border-bottom:1px solid #ad590a;}
+
+/*.frnbg				 	{ background: url(../images/fran_bgtop.jpg) top left no-repeat;  width:588px; }
+.frnbox				 	{ font-family: Arial;  font-size: 10px; height: 18px; width: 180px; border: 1px #84a41f solid; background-color:white; font-weight:normal;	}
+.frnbtn					 { color : #FFFFFF;	font-family:arial;	font-size:11px;	width:70px;	height:22px;	border: 1px #FFFFFF solid;	background-color:#84a41f;	cursor:hand;	text-align: center;	font-weight:bold;	}	
+.frnarea		     	{ font-family:arial; font-size: 11px; color: #000000; height: 70px; width: 180px; border: 1px solid #84a41f; background-color:#ffffff;	}
+a.innerpage		 	 	{ color:#FFFFFF; font-family:arial; font-size:11px; font-weight:bold; text-decoration:none; }
+a.innerpage:hover	 	{ color:#476f02; font-family:arial; font-size:11px; font-weight:bold; text-decoration:none; }
+.frnbdr				 	{ border-left:#85a422 solid 1px;  border-right:#85a422 solid 1px; }
+a.frnlink			 	{ color:#84a41b; font-family:arial; font-size:11px; font-weight:bold; text-decoration:none; }
+a.frnlink:hover		 	{ color:#3f4e0f; font-family:arial; font-size:11px; font-weight:bold; text-decoration:none; }
+a.frnupgrd			 	{ color:#84a41b; font-family:arial; font-size:10px; font-weight:bold; text-decoration:none; }
+a.frnupgrd:hover	 	{ color:#3f4e0f; font-family:arial; font-size:10px; font-weight:bold; text-decoration:none; }
+.innerbld			 	{ font-family:arial; font-size:11px; font-weight:bold; color:#2e4704;}
+.grnbdr			 	 	{ border-bottom:#84a41f solid 1px; border-left:#84a41f solid 1px;  border-right:#84a41f solid 1px; }
+.frnmenubg			 	{ height:15px; cursor:pointer; padding:7px 0px 7px 8px; color:#657d1b; }*/
+
+.iclr					{ background-color:#fbf7d1; border:1px solid #b8c396; font-family:Arial; font-size:12px; color:#640705;}
+.iclr2					{ font-family:Arial; font-size:12px; color:#3f3a04; background-color:#ffca4d; border-top:#dfe5cd 1px solid; border-left:#dfe5cd 1px solid; border-bottom:#dfe5cd 1px solid;}
+.iclr3					{ font-family:Arial; font-size:12px; color:#3f3a04; background-color:#ffca4d; border-top:#dfe5cd 1px solid; border-left:#dfe5cd 1px solid; border-bottom:#dfe5cd 1px solid;}
+.iclr4					{ font-family:Arial; font-size:12px; color:#333333; background-color:#c1d586; border-top:#dfe5cd 1px solid; border-left:#dfe5cd 1px solid; border-bottom:#dfe5cd 1px solid;}
+.iclr5					{ background-color:#ffffff; border:1px solid #dfe5cd; font-family:Arial; font-size:12px; color:#aa0303;}
+.regfree				{ background:url(../images/reg_free_inner.jpg) no-repeat 0px 0px;  background-color:#f2f5eb; }	
+.advr					{ font-family:Arial; font-size:12px; color:#3f3a04; background-color:#ffe7a6; border-top:#dfe5cd 1px solid; border-left:#dfe5cd 1px solid; border-bottom:#dfe5cd 1px solid;}
+.advr1					{ background-color:#ffffff; border:1px solid #dfe5cd; font-family:Arial; font-size:12px; color:#640705;}
+.wedpad                 { padding:1px 3px 3px 1px;}
+.wedcmbbox				{ color : #000000;	font-family:Arial;	font-size:12px;	height:16px;	width: 180px;	border: 1px #7f9db9 solid;	background-color:white;	}
+.wedbutton		        { color : #000000;	font-family:Arial;	font-size:12px;	width:70px;	height:18px;	border: 1px #FFFFFF solid;	background-color:#fece68;	cursor:hand;	text-align: center;	font-weight:bold;	}	
+.weddir					{ color : #000000;	font-family:Arial;	font-size:12px; line-height:18px;	 text-decoration:none;}
+.sums                   { color:#de221b;} 
+.mprlgtbox				{ font-family:Arial;  font-size: 12px; height:18px; width:150px; border: 1px #7f9db9 solid; background-color:white; font-weight:normal;	} 
+
+a.wedapp 				{ font-family:arial;	font-size:11px; color:#de221b; text-decoration:underline; font-weight:bold;}
+a.wedapp:hover          { font-family:arial;	font-size:11px; color:#000000; text-decoration:none; font-weight:bold;}
+a.readstr			    { font-family:arial; font-size:12px; color:#dd1b17; font-weight:bold; text-decoration:underline; }		
+a.readstr:hover			{ font-family:arial; font-size:12px; color:#000000; font-weight:bold; text-decoration:none; }		
+.loginbg				{ background:url(../images/login_inbg_g.jpg) left top no-repeat; height:243px;}
+h5.mlogin			 	{ margin:0px; font-family:arial; font-size:12px; color:#a80326; font-weight:bold;}
+h4.htitle				{ margin:0px; padding:5px 0px 5px 5px; color:#a80326; font-family:Arial; font-size:14px; }
+.benfits				{ line-height:18px; margin:0px; padding:0px 0px 10px 30px; color:#bc3a3a; font-size:12px; }
+a.member 				{ color:#d16c00; font-family:Arial; font-size:12px; text-decoration:underline; }
+a.member:hover			{ color:#d16c00; font-family:Arial; font-size:12px; text-decoration:none; }
+.upgnow					{ background-color:#f9ffcc; border-top:1px solid #e2e9b0; border-bottom:1px solid #e2e9b0; border-right:1px solid #e2e9b0;}	
+a.forgot 				{ color:#405e11; font-family:Arial; font-size:12px; font-weight:bold;  text-decoration:underline; }
+a.forgot:hover			{ color:#a80326; font-family:Arial; font-size:12px; font-weight:bold;  text-decoration:none; }
+.loginbox			 	{ font-family: Arial;  font-size: 12px; height:18px; width: 118px; border: 1px #707e49 solid; background-color:#FFFFFF; font-weight:normal;	}
+.regtop					{ background:url(../images/reg_top.jpg) top left no-repeat;}
+a.horoscope				{ font-family:Arial; font-size:12px; color:#dd1915;  text-decoration:underline;}
+a.horoscope:hover		{ font-family:Arial; font-size:12px; color:#333333; text-decoration:none;}
+
+.reghtop				{ background:url(../images/reg_top_halfg.jpg) top left no-repeat; }
+.reghbtm				{ background:url(../images/reg_btm_halfg.jpg) bottom left no-repeat; }
+.regmidbg				{ background:url(../images/reg_mid_bg.jpg) top left repeat-y; }
+.txtfbox				{ color: #000000;	font-family:Arial;	font-size:12px;	height: 20px;	width: 160px;	border: 1px #cfcfcf solid;	background-color:white;	}
+.cmbfbox				{ color : #000000;	font-family:Arial;	font-size:12px;	height: 20px;	width: 165px;	border: 1px #cfcfcf solid;	background-color:white;	}
+.buttons		    	{ color : #FFFFFF;	font-family:Arial;	font-size:12px;	width:65px;	height:18px;	border: 1px #FFFFFF solid;	background-color:#a80326;	cursor:hand;	text-align: center;	font-weight:bold;	}	
+.franbutton		    	{ color : #000000;	font-family:Arial;	font-size:12px;	width:125px;	height:22px;	border: 1px #000000 solid;	background-color:#cfe24a;	cursor:hand;	text-align: center;	font-weight:bold;	}
+
+.buttonf		    	{ color : #FFFFFF;	font-family:Arial;	font-size:12px;	width:65px;	height:21px;	border: 1px #FFFFFF solid;	background-color:#a80326;	cursor:hand;	text-align: center;	font-weight:bold;	}	
+a.idclr					{ font-family:Arial; font-size:12px; color:#dd1815; text-decoration:underline;}
+a.idclr:hover			{ font-family:Arial; font-size:12px; color:#dd1815; text-decoration:none;}
+.regall					{ background:url(../images/reg_page_all.jpg) top left no-repeat;}
+

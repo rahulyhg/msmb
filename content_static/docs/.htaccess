@@ -1,0 +1,7 @@
+AddDefaultCharset UTF-8
+AddCharset UTF-8 .html
+
+ExpiresActive on
+ExpiresDefault "access plus 0 seconds"
+Header set Cache-Control "no-store, no-cache, must-revalidate, max-age=0"
+Header set Pragma "no-cache"

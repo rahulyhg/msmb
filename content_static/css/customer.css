@@ -1,0 +1,340 @@
+/* Customer Area CSS Start */
+.page-header {font-size: 24px; font-weight: bold; margin: 20px 0px 20px 0px;}
+#customer-login-form input[type=text], input[type=password]{height:15px; padding: 5px; border: 1px solid #c9c9c9; width: 220px; font-size: inherit; color: #222426;}
+#customer-login-form input[type=submit] {height:35px; line-height: 35px; width: 100px; font-size: inherit;}
+#customer-login-form table { border-spacing: 0px 10px;}
+#customer-login-form {width: 100%; padding: 0px;}
+#customer-login-form .left-container2 { width:100px;}
+#customer-login-form .table-row { padding-left: 15px; }
+#customer-login-form .login-button { width: 50px; }
+.customer-login-form-container { padding:20px 10px; background: #F2F8FB !important;}
+.customer-login-form-container a {color: #00458E !important;}
+.customer-login-form-header {margin-left: 15px; margin-bottom: 10px; line-height: 22px !important;}
+.login-bottom-margin {margin-bottom: 15px;}
+.customer-login-ul {line-height: 25px; margin-top: 10px;}
+.customer-login-ul li { margin-left: 15px; display:list-item; overflow: visible !important;}
+.customer-login-ul span.tick-mark{ width:20px; height:20px; background-position: -220px -75px; }
+span#forgot-password-link {margin-left: 8px; color: #00458E !important;}
+
+/* Customer Area CSS End */
+
+/* Customer Area forgot password page CSS START */
+#form-error-email {width: 400px;}
+#customer-password-forgot-form .table-row {padding-left: 0px;}
+#customer-password-forgot-form .left-container2 {width: 100px;}
+#customer-password-forgot-form input[type=text], #customer-password-forgot-form input[type=password]{height:20px; padding: 4px; border: 1px solid #c9c9c9; width: 200px; font-size: inherit; color: #222426;}
+#customer-password-forgot-form input[type=submit], #customer-password-forgot-form input[type=button] {height:35px; line-height: 35px; width: 98px; font-size: inherit; color: #fff; margin-right: 12px;}
+/* Customer Area forgot password page CSS END */
+
+/* Customer Area edit details form css */
+#customer-edit-form input[type=text], #customer-edit-form input[type=password] {height:20px; padding: 4px; border: 1px solid #c9c9c9; width: 215px; font-size: inherit; color: #000;}
+#customer-edit-form input[type=checkbox] {margin-top: 10px; border: 1px solid #c9c9c9;}
+#customer-edit-form input[type=submit], #customer-edit-form input[type=button] {height:35px; line-height: 35px; width: 90px; font-size: inherit; color: #fff; margin-right: 10px;}
+/* customer details page css */
+
+/* Customer Area change password form css starts */
+#customer-password-form input[type=text], #customer-password-form input[type=password]{height:20px; padding: 4px; border: 1px solid #c9c9c9; width: 180px; font-size: inherit; color: #222426;}
+/* Customer Area change password form css ends */
+
+/* General msg container css */
+.general-msg-container {padding: 5px; margin-bottom: 20px; background: #FFFFCC; border: 1px solid #FFFFCC; }
+/* The specific style rules used to suggest rendering */
+/* for the CSS table design example, starts here */
+
+.cm-logout-link {position: absolute; z-index: 99; margin-top: -7px; color: #A5F9FF !important;}
+.cm-logout-link a{color: #A5F9FF !important;}
+.cm-expired-installer-button {margin-left: 10px;}
+div.base-layer {
+    padding: 0;
+    text-align: left;
+    width: auto;
+    color: #fff;
+    height: 100%;
+    margin-bottom: 0px;
+}
+
+div.table-row {
+    background: none;
+    border: solid #000000 0px;
+    padding-top: 5px;
+    padding-right: 0;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    text-align: left;
+}
+
+div.table-row * { overflow: visible !important;}
+/* Style rules for the 3 x 2 table example */
+
+div.left-container2 {
+    border: none;
+    float: left;
+    margin: 0;
+    padding: 0;
+    width: 175px;
+}
+
+div.right-container2 {
+    border: none;
+    float: left;
+    margin: 0;
+    padding: 0;
+    width: 230px;
+}
+
+.customer-password-tab div.left-container2 {
+    border: none;
+    float: left;
+    margin: 0;
+    padding: 0;
+    width: 160px;
+}
+
+.customer-password-tab div.right-container2 {
+    border: none;
+    float: left;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    display: inline-block;
+}
+
+.customer-password-tab {background: #f3f5f9; padding-bottom: 15px;}
+div.space-line { clear: both; margin: 10px 0 10px 0; padding: 0; width: auto; }
+
+p.text {
+    margin: 0;
+    padding: 0;
+    font-style: normal;
+    font-size: inherit;
+    text-align: left;
+    text-indent: 0;
+    width: auto;
+    display: inline-block;
+    line-height: 35px;
+    -webkit-margin-before: 0px;
+    -webkit-margin-after: 0px;
+}
+
+div.right-container2 input[type='submit'] { width: 90px; line-height: 35px; height: 35px; cursor: pointer;}
+/* End of layer specific style rule set */
+/* Customer edit details page CSS */
+.customer_details_edit input[type='text'] {
+    width: 250px;
+    height: 25px;
+    color: #222426;
+    font-size: 16px;
+    font-style: inherit;
+    padding-left: 5px;
+}
+.error-msg-container {padding-left: 20px;}
+.form-error {color: red; clear: both; display: inline-block; min-width: 250px;}
+.customer_details_edit .field-error {background: lightpink;}
+.user-section {margin-top: 35px; min-width: 11%;}
+.user-section-logout { margin-top: -7px !important;}
+.user-section-logout a{color:  #fff; }
+.customer-details-tab { width: 490px;}
+.customer-password-tab {width: 390px;}
+.customer-details-tab-text, .customer-password-tab-text  {
+    line-height: 42px;
+    vertical-align: middle;
+    padding-left: 15px;
+}
+/* customer area icons class */
+
+.customer-details-tab .alt-row{background: #f3f5f9;}
+.customer-edit {width: 75px;}
+#edit-icon {
+    background-position:  -103px  0px;
+    width: 24px;
+    height: 24px;
+    margin: 5px 0px 0px 5px;
+    display: inline-block;
+    border: 0px solid red;
+    float: left;
+}
+.customer-edit span {margin-top: 10px;}
+.ca-support-links { float: left; margin-left: 20px; padding: 0 !important; line-height: 55px; text-align: center; display:block}
+#mon-help, #sql-help {
+    background-position: -259px 1px;
+    width: 50px;
+}
+
+#cm-documentation {
+    background-position: -383px -2px;
+    width: 55px;
+}
+
+#cm-community {
+    background-position: -320px 1px;
+    width: 50px;
+}
+#cm-contact {
+    background-position: -205px 1px;
+    width: 50px;
+}
+.required-field-mark {color: red;}
+
+/* Order details table */
+.cm-grey-row {background-color: #F3F5F9;}
+.cm-white-row {background-color: #ffffff;}
+tr.cm-grey-child-row td {border-top: 2px solid #F3F5F9;}
+tr.cm-grey-child-row td:first-child {padding-left: 50px !important;}
+tr.cm-white-child-row td {border-top: 2px solid #ffffff;}
+tr.cm-white-child-row td:first-child {padding-left: 50px !important;}
+
+.order-details-table a {color: #A5F9FF;}
+.order-details-table a:hover {text-decoration: underline;}
+.order-details-table table{ border-collapse: collapse;}
+.order-details-table thead tr {background: #007bd8; height: 42px; line-height: 42px;}
+.order-details-table thead tr td{padding-left: 0px; color: white;}
+.order-details-table thead tr td:first-child{padding-left: 20px; color: white;}
+
+
+.order-details-table tbody tr td{padding-left: 10px; padding-top: 10px; padding-bottom: 0px;}
+
+.order-details-table .col-separator { border-left: 1px solid #63a3ff;}
+.order-details-table .product-col { width: 70%; }
+.order-details-table .purchase-date-col { width: 80px; }
+.order-details-table .expiry-date-col { width: 15%; }
+.order-details-table .orderno-col { width: 100px; }
+.order-details-table .qty-col { width: 10px; }
+.order-details-table .reg-details-col { width: 150px; }
+.order-details-table .expand-child {
+    background-position:  -142px  -4px;
+    width: 24px;
+    height: 24px;
+    margin: 3px 5px 0px -30px;
+    display: inline-block;
+    border: 0px solid red;
+    float: left;
+}
+.order-details-table .expand-child {cursor: pointer;}
+.order-details-table .child-order {padding-left: 40px;}
+.order-details-table .selected-child {background-position:  -181px  -4px;}
+.order-details-table .product-name {padding-left: 40px; padding-top: 10px;}
+.order-details-table td.product-name table tr td {padding-top: 0px; padding-left: 0px;}
+.order-details-table td.product-name table td td{overflow:visible !important;}
+td.upgrade-form-block {padding-left: 0px !important; }
+
+div.premium-support-features {padding-left: 40px; padding-right: 0px; display: none; margin-top: 10px;}
+
+/* Monyog download section */
+.os-bit-block { margin-top: 6px; margin-bottom: 10px;}
+#monyog-beta-switch {margin-top: 107px; margin-bottom: 20px;}
+#monyog-download-section .wy-download-button {width: 380px;}
+
+/* Shopping cart page CSS */
+#circle1-icon {
+    background-position:  -9px  -38px;
+    width: 28px;
+    height: 28px;
+    margin: 10px 10px 0px 0px;
+    display: inline-block;
+    border: 0px solid red;
+    float: left;
+}
+#circle2-icon {
+    background-position:  -50px  -38px;
+    width: 28px;
+    height: 28px;
+    margin: 10px 10px 0px 0px;
+    display: inline-block;
+    border: 0px solid red;
+    float: left;
+}
+#redcross-icon {
+    background-position: -105px -142px;
+    width: 28px;
+    height: 28px;
+    margin: 0px 10px 0px 0px;
+    display: inline-block;
+    border: 0px solid red;
+    float: left;
+}
+.purchase-type li {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-left: 60px;
+    border-bottom: 1px solid #7f8185;
+}
+
+.cart-block li {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.purchase-type li input[type=radio] {
+    margin-right: 20px;
+}
+.multiyear-block {float:left; width:600px; margin-right: 75px;}
+.multiyear-text { margin-left: 20px; line-height: 28px;margin-bottom:20px;}
+
+.cart-block { float:left; width:225px; background: #F2F8FB; padding: 20px;}
+
+#cart-subtotal-block { float: right; display: inline-block; }
+.total-value { font-size: 24px; }
+.cart-buttons-block input[type=button] { width: 185px; margin-right: 20px; height: 40px; line-height: 40px; }
+#checkout-product-list, #checkout-customer-info { margin-left: 36px;}
+#checkout-customer-info tr td { padding: 0px 0px 0px 0px; }
+#checkout-product-list tr td {padding: 20px 0px 20px 0px;}
+.product-delete-button {
+    background-position:  -284px  -80px;
+    width: 20px;
+    height: 20px;
+    margin: 0px 10px 0px 0px;
+    display: inline-block;
+    border: 0px solid red;
+    cursor: pointer;
+}
+
+#checkout-customer-info input[type=text] {
+    height: 20px;
+    padding: 4px;
+    border: 1px solid #C9C9C9;
+    width: 425px;
+    font-size: inherit;
+    color: #222426;
+}
+
+#life-multiyear {display: none;}
+#invalid-coupon {display: none;}
+#edit-shopping-cart { display: none;}
+#edit-shopping-cart #edit-icon { margin: 10px 5px 0px 5px; background-position:  -163px  -38px; }
+#edit-icon a:hover {cursor: default;}
+.change-edit-icon { background-position:  -163px  -38px; }
+
+#PPMiniCart form ul li { color: #000;}
+#upgrade-button-table tr td {padding-top: 0px;}
+.paypal-bottom-margin {margin-bottom: 10px;}
+.upgrade-form-button-table { margin-left: 0px; background-color: #fdebe9; }
+.upgrade-form-button-table tr td {  margin: 0px !important; padding: 0px !important; border-collapse: collapse;}
+.upgrade-form-button-table .upg-msg {padding-left:40px !important; color: red;}
+#password-update-section {display: none;}
+#profile-update-section, #profile-error-update-section {display: none;}
+
+td.cm-cart-row { border-bottom: 1px solid #ddd;}
+
+div[class*='-release-'] {display: inline-block;}
+div[class*='-release-'] .wy-download-button{width:380px !important;}
+div[class*='-release-'] .cm-button-align{float: right; margin-left: 10px;}
+.order-details-table a[class*='expanded_'] {display: none;}
+.order-details-table tr[class*='order-details-row-'] {display: none;}
+.order-details-table tr.order-details-border td a{color:#00458E;}
+.order-details-table tr.order-details-border td{padding: 20px 0px 0px 0px;}
+.order-details-table tr.order-details-border td:first-child{padding-left: 20px;}
+.order-details-table .order-listing-separator {height: 1px; border-bottom: 1px solid #C9C9C9; padding: 0px; margin: 0px; padding-top: 20px;}
+.order-details-table .inner-details-table{margin-left: 20px; font-size: 13px;}
+.order-details-table .inner-details-table tr td {padding: 2px;}
+
+.order-details-table a { color: #00458E;}
+.order-details-table .inner-inner-details-table { padding-top: 10px !important; width: 80%;}
+
+.order-details-table .order-details-row-upgrade {display: none;}
+.order-details-table tr[class*='order-details-row-upgrade'] .inner-details-table { border-top: 1px #c9c9c9 solid; }
+
+.order-details-table .inner-detail-field{font-weight: bold;}
+.order-details-table .inner-detail-value{}
+.order-details-table .expanded-separator{ padding-bottom: 0px !important; padding-top: 20px !important;}
+.order-details-table .expired-order{ background: #FDEBE9;}
+.order-details-table .cm-no-padding td{ padding: 0px !important;}

@@ -1,0 +1,28 @@
+div					{ margin:0px; padding:0px; font-family:Arial, Helvetica, sans-serif; }
+img, p 				{ margin:0px; border: 0px; padding:0px; }
+#main  				{ width:780px; margin-left:auto; margin-right:auto; vertical-align:top;}
+#div1				{ width:780px; float:left; height:105px; }
+#banner				{ float:left; width:298px; padding:24px 0px 10px 0px;   }
+#add				{ float:right; width:298px; padding:20px 0px 10px 10px; }
+#div2				{ width:780px; float:right; height:58px;}
+#lang				{ float:right;  }
+#menutop			{ float:right; height:18px; padding:0px 35px 0px 0px; }
+#div3				{ width:780px; float:left; margin:0px; height:348px; padding:9px 0px 0px 0px;}
+#step				{ float:right; margin:0px;   background:url(../images/home_banner.jpg) bottom no-repeat;  width:530px; height:349px;}
+#div4				{ width:780px; float:left; }
+#menumid			{ text-align:center; height:22px;  }
+#div5				{ width:780px; float:left; }
+#pro				{ width:340px; padding:5px 0px 0px 0px; float:left; margin:0px;}
+#sstory				{ width:425px; padding:5px 0px 0px 15px; float:left; margin:0px;}
+#rimg				{ width:425px; padding:9px 0px 0px 15px; float:left; margin:0px;}
+#div6				{ width:780px; float:right; padding-right:112px; }
+#ftr				{ width:780px; }
+#line				{ border-bottom:1px solid #ccc9c2; padding:5px; }
+#copy				{   text-align:center; margin-left:auto; margin-right:auto;}
+h4.innews			{ margin:0px; font-family:Arial; font-size:13px; color:#ff6100; font-weight:bold;}
+.txtinbox			{ color: #000000;	font-family:Arial;	font-size:12px;	height: 16px;	width: 140px;	border: 1px #cfcfcf solid;	background-color:white;	}
+.buttonin		    { color : #FFFFFF;	font-family:Arial;	font-size:12px;	width:65px;	height:21px;	border: 1px #FFFFFF solid;	background-color:#a80326;	cursor:hand;	text-align: center;	font-weight:bold;	}	
+.pipe				{ margin:0px; font-family:Arial; font-size:13px; color:#dd1915;}
+a.user 				{ color:#dd1915; font-family:Arial; font-size:15px; font-weight:bold;  text-decoration:none; }
+a.user:hover		{ color:#a80326; font-family:Arial; font-size:15px; font-weight:bold;  text-decoration:none; }
+.feature 			{ color:#000000; font-family:Arial; font-size:12px; line-height:18px;  text-decoration:none; }

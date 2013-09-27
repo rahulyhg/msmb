@@ -1,0 +1,40 @@
+.homeinbody				{ margin:0px; background:url(../images/main_bg_inner.jpg) repeat-x; }
+.menuinnerbg			{ background-color:#fff9d4; border:1px solid #fbe292;}
+.menuinnerbg a 			{ background:url(../images/menu_line_bg.jpg) no-repeat 0px 24px; width:165px; height:22px; display:block; padding:5px 0px 0px 5px; font-family:arial; font-size:12px; color:#333333; text-decoration:none; }
+.menuinnerbg a:hover	{ background:url(../images/menu_box_bg.jpg) no-repeat 0px 0px; width:165px; height:22px; display:block; padding:5px 0px 0px 5px; font-family:arial; font-size:12px; color:#db1a15; text-decoration:none; }
+.titlebg				{ background:url(../images/inner_title_bg.jpg) top left no-repeat; width:164px; height:31px;}
+h1.title				{ font-family:Arial; font-size:16px; color:#dd1815; font-weight:bold; margin:0px; padding:7px 0px 0px 0px; text-align:center;}
+.menuend				{ background-color:#fcd15c; border-right:1px solid #ad590a; border-left:1px solid #ad590a; border-bottom:1px solid #ad590a;}
+
+
+.sarchbg				{ background:url(../images/search_menu.gif) top left no-repeat; width:561px; height:26px; }
+.stitle					{ font-size:12px; font-family:Arial; color:#e34031; width:118px; margin:0px; float:right; font-weight:bold; }
+.edubox			 		{ font-family:Arial;  font-size: 12px; height:19px; width:155px; border: 1px #B5B5B5 solid; background-color:white; font-weight:normal;	} 
+.hgtbox					{ font-family:Arial;  font-size: 12px; height:19px; width:110px; border: 1px #B5B5B5 solid; background-color:white; font-weight:normal;	} 
+.button4				{ color :#1e2204;	font-family:Arial;	font-size:11px;	width:60px;	height:20px;	border: 1px #515c0a solid;	background-color:#a5b400;	cursor:hand;	text-align: center;	font-weight:bold;	}	
+.clr					{ color:#82a21c;}
+.red					{ font-size:12px; font-family:Arial; color:#e34031; font-weight:bold; }
+.maindr					{ border-left:#e5de9f 1px solid;  border-right:#e5de9f 1px solid; }
+.tmenubg				{ background:url(../images/tmenu_bg.jpg) top left repeat-x; height:28px;}
+.sbar					{ background-color:#dd1b17; color:#fbf7d1; font-size:12px; font-family:Arial; }
+a.next			 	 	{ color:#ffdc7d; font-family:Arial; font-size:12px; font-weight:bold; text-decoration:none; }
+a.next:hover		 	{ color:#FFFFFF; font-family:Arial; font-size:12px; font-weight:bold; text-decoration:none; }
+a.idclr					{ font-family:Arial; font-size:12px; color:#dd1815; text-decoration:underline;}
+a.idclr:hover			{ font-family:Arial; font-size:12px; color:#dd1815; text-decoration:none;}
+a.org					{ font-family:Arial; font-size:12px; color:#fd8902; text-decoration:none;}
+a.org:hover				{ font-family:Arial; font-size:12px; color:#333333; text-decoration:none;}
+.orgin					{ font-family:Arial; font-size:12px; color:#fd8902; }
+.expressbg				{ background:url(../images/express_bg.gif) center no-repeat; font-family:Arial; font-size:12px; color:#FFFFFF; width:153px; height:19px; font-weight:bold; text-align:center; padding-top:3px;}
+a.epro					{ background:url(../images/epro_btn1.jpg)  left top no-repeat; width:118px; height:20px; display:block; font-family:arial; font-size:12px; color:#617d06; text-decoration:none; text-align:center; padding-top:7px; }
+a.epro:hover			{ background:url(../images/epro_btn1_ovr.jpg)  left top no-repeat; width:118px; height:20px; display:block; font-family:arial; font-size:12px; color:#de1e18; text-decoration:none; text-align:center; }
+a.eproselect			{ background:url(../images/epro_btn1_ovr.jpg)  left top no-repeat; width:118px; height:20px; display:block; font-family:arial; font-size:12px; color:#de1e18; text-decoration:none; text-align:center; padding-top:7px; }
+a.moreid				{ font-family:Arial; font-size:12px; color:#dd1915; font-weight:bold; text-decoration:underline;}
+a.moreid:hover			{ font-family:Arial; font-size:12px; color:#333333; font-weight:bold; text-decoration:none;}
+a.orng1					{ font-family:Arial; font-size:13px; color:#fff9d4; text-decoration:none;}
+.txtcbomulti			{ font-family:Arial; font-size: 12px; color: #000000; height: 70px; width: 200px; border: 1px solid #B5B5B5; background-color:#ffffff;	}
+.cmbboxmulti			{ color : #000000;	font-family:Arial;	font-size:12px;	height: 20px;	width: 200px;	border: 1px #C8D7FF solid;	background-color:white;	}
+.regall					{ background:url(../images/reg_page_all.jpg) top left no-repeat;}
+.reghbtm				{ background:url(../images/reg_btm_half.jpg) bottom left no-repeat; }
+h4.rtitle				{ font-family:Arial; font-size:12px; color:#dd1a16; margin:0px;  }
+
+/*a.orng1:hover			{ font-family:Arial; font-size:13px; color:#313131; text-decoration:none;} */

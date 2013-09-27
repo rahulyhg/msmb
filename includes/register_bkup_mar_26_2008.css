@@ -1,0 +1,35 @@
+.homeinbody				{ margin:0px; background:url(../images/main_bg_inner.jpg) repeat-x; }
+.menuinnerbg			{ background-color:#fff9d4; border:1px solid #fbe292;}
+.menuinnerbg a 			{ background:url(../images/menu_line_bg.jpg) no-repeat 0px 24px; width:165px; height:22px; display:block; padding:5px 0px 0px 5px; font-family:arial; font-size:12px; color:#333333; text-decoration:none; }
+.menuinnerbg a:hover	{ background:url(../images/menu_box_bg.jpg) no-repeat 0px 0px; width:165px; height:22px; display:block; padding:5px 0px 0px 5px; font-family:arial; font-size:12px; color:#db1a15; text-decoration:none; }
+.titlebg				{ background:url(../images/inner_title_bg.jpg) top left no-repeat; width:164px; height:31px;}
+h1.title				{ font-family:Arial; font-size:16px; color:#dd1815; font-weight:bold; margin:0px; padding:7px 0px 0px 0px; text-align:center;}
+.menuend				{ background-color:#fcd15c; border-right:1px solid #ad590a; border-left:1px solid #ad590a; border-bottom:1px solid #ad590a;}
+a.orng2					{ font-family:Arial; font-size:15px; color:#fbf7d1;  text-decoration:none;}
+a.orng2:hover			{ font-family:Arial; font-size:15px; color:#fbf7d1; text-decoration:none;}
+
+
+.regtop					{ background:url(../images/reg_top.jpg) top left no-repeat; height:515px;}
+.regbtm					{ background:url(../images/reg_btm.jpg) top left no-repeat;}
+.regall					{ background:url(../images/reg_page_all.jpg) top left no-repeat;}
+.reghtop				{ background:url(../images/reg_top_half.jpg) top left no-repeat; }
+.reghbtm				{ background:url(../images/reg_btm_half.jpg) bottom left no-repeat; }
+.regmidbg				{ background:url(../images/mig_mig_bg.jpg) top left repeat-y; }
+.regstrip				{ background-color:#fccf56; width:497px; height:16px;}
+
+h4.rtitle				{ font-family:Arial; font-size:12px; color:#dd1a16; margin:0px;  }
+.txtrbox				{ color: #000000;	font-family:Arial;	font-size:12px;	height: 20px;	width: 160px;	border: 1px #cfcfcf solid;	background-color:white;	}
+.cmbrbox				{ color : #000000;	font-family:Arial;	font-size:12px;	height: 20px;	width: 165px;	border: 1px #cfcfcf solid;	background-color:white;	}
+.incomebox				{ color : #000000;	font-family:Arial;	font-size:12px;	height: 20px;	width: 100px;	border: 1px #cfcfcf solid;	background-color:white;	}
+.regarea				{ font-family:Arial; font-size: 11px; color: #000000; height: 70px;   width: 160px;   border: 1px solid #cfcfcf;  background-color:white;	}
+a.hint					{ font-family:Arial; font-size:12px; color:#dd1815;  text-decoration:underline;}
+a.hint:hover			{ font-family:Arial; font-size:12px; color:#dd1815; text-decoration:none;}
+.txtagein				{ font-family:Arial;  font-size: 11px; height: 14px; width: 20px; border: 1px #cfcfcf solid; background-color:white; font-weight:normal;	}
+.txtagein1				{ font-family:Arial;  font-size: 11px; height: 14px; width: 20px; border: 1px #cfcfcf solid; background-color:white; font-weight:normal;	}
+.benfits1				{ line-height:25px; margin:0px; padding:30px 0px 0px 0px; }
+h4.htitle				{ margin:0px; padding:1px 0px 5px 8px; color:#ba3501; border-top:#000000 1px solid; border-left:#000000 1px solid; border-right:#000000 1px solid;  font-family:Arial; font-size:14px; background-color:#fccf56; }
+.benefit				{ background:url(../images/img_benefit.jpg) top left no-repeat; height:183px; }
+ul.benefits             { margin:0px; padding:50px 0px 0px 50px; list-style-type:none; text-align:left;}
+ul.benefits li          { margin:0px; padding:10px 0px 0px 15px; ackground:	url(../images/exp_arrow.jpg) no-repeat 0px 3px;}
+a.idclr					{ font-family:Arial; font-size:12px; color:#dd1815; text-decoration:underline;}
+a.idclr:hover			{ font-family:Arial; font-size:12px; color:#dd1815; text-decoration:none;}

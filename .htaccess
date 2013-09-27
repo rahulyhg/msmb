@@ -1,0 +1,9 @@
+# Use PHP5 Single php.ini as default
+#AddHandler application/x-httpd-php5s .php
+
+RewriteEngine On
+RewriteBase /
+
+RewriteCond %{REQUEST_URI} ^$
+RewriteCond %{HTTP_HOST} ^maashaktimarriage.com/$
+RewriteRule ^$ http://maashaktimarriage.com/index.php [L,R=301]

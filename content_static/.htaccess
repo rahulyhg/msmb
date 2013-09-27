@@ -1,0 +1,7 @@
+<FilesMatch "\.(ttf|otf|eot|woff)$">
+<IfModule mod_headers.c>
+    Header set Access-Control-Allow-Origin *
+</IfModule>
+</FilesMatch>
+Header set X-UA-Compatible: IE=EmulateIE8
+Options -Indexes 

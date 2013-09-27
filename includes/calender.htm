@@ -1,0 +1,369 @@
+<!-- made the modifications and made it work on all browsers 
+* by P.Praveenkumar
+* on 27-6-2005 
+* for advance ecommerce solutions
+-->
+<html>
+  <head>
+	<title>Select Date</title>
+	<style type="text/css">
+	  <!--
+//---------------------------------------------------------------
+.calcaption {  font-family: Arial; font-size: 12px; font-weight: bold; color: #FFFFFF; background-color: #003399; border: #003399; border-style: solid; border-top-width: 3px; border-right-width: 3px; border-bottom-width: 3px; border-left-width: 3px}
+.calender {  background-color: #f4f4f4; width: 250px; clip:   rect(   )}
+.calborder {  border: 1px #CCCCCC solid}
+.caldropdowns {  font-family: Arial, Helvetica, sans-serif; font-size: 12px; font-weight: bold; color: #000000; background-color: #FFFFFF; width: auto; clip:  rect(   )}
+.calbutts {  font-family: Arial; font-size: 11px; font-weight: bold; color: #000000; background-color: #f4f4f4; width: auto; clip:  rect(   ); cursor: hand; border-style: none}
+.calinsideborder { border: 1px #CCCCCC solid; clip:   rect(   )}
+.caldays { font-family: Arial; font-size: 12px; font-weight: bold; color: #ffffff; background-color: #455892; text-transform: uppercase}
+.calwknd { cursor: hand;font-family: Arial; font-size: 12px; font-weight: bold; color: #000000; background-color: #666666}
+.calwkdy { cursor: hand;font-family: Arial; font-size: 12px; font-weight: bold; color: #000000; background-color: #999999 }
+.calinsidesettings { clip:  rect(   ); width: 250px}
+.txtbox
+	{
+	font-family= Verdana; font-size: 11px; font-weight: bold; height: 20px; width: 32.5px; border: 1px #ffffff solid; background-color:#ff0000; cursor: pointer; cursor: hand;
+	}
+
+--></style>
+<SCRIPT LANGUAGE="JavaScript">
+// By Jonathon Cebula
+// made the modifications and made it work on all browsers 
+// by P.Praveenkumar
+// on 27-6-2005 
+// for advance ecommerce solutions
+
+var now   = new Date();
+// Modify this to change the Webelectrix.com calendar options.
+//---------------------------------------------------------------
+var nReturn=0;
+dat = new Date();
+var firstyear=dat.getFullYear() -40;  //how many years back!
+var lastyear=dat.getFullYear() +5;  //1 higher than the years from today you wish to display. 
+var colour="#cccccc";//Greyed out days.
+var coltoday="#FF0000";//todays colour.
+
+// Click Function, Currently just displays the cell date, Modify for what you want to happen!
+// NB: cellday[cell] hold the date clicked in ddmmyyyy format.
+//-------------------------------------------------------------
+
+function message(cell){
+	nReturn=1;
+	
+	if(document.all)
+	{
+		//ddmmyyyy
+		//window.returnValue = cellday[cell].substring(0,2) + "/" + cellday[cell].substring(2,4) + "/" + cellday[cell].substring(4,8);
+		
+		// mmddyyyy
+		window.returnValue = cellday[cell].substring(2,4) + "/" + cellday[cell].substring(0,2) + "/" + cellday[cell].substring(4,8);	  
+		window.close(); 
+	}
+	else
+	{
+	//ddmmyyyy
+		str=cellday[cell].substring(2,4) + "/" + cellday[cell].substring(0,2) + "/" + cellday[cell].substring(4,8);	  
+		//window.opener.fnValue(str);
+		window.opener.objDateHolder.value=str;
+		window.close(); 
+	}
+	
+}
+
+// Calender Code, Modify only if you know what your doing. If you don't, just keep a back up!
+//--------------------------------------------------------------------------------------------
+
+var day   = now.getDate();
+var month = now.getMonth();
+var year  = now.getYear();
+if (year < 2000)
+year = year + 1900;
+var daycell=new Array();
+var cellday=new Array();
+var n;
+
+// Create Calender
+//-----------------
+function calendar()
+{
+var calobj, caption
+caption='Calender';
+calobj='<table border="1" cellspacing="0" cellpadding="0" class="calborder">';
+calobj+='<tr><td>';
+calobj+='<table border="0" cellspacing="1" cellpadding="0" class="calender">'
+calobj+='<tr height="20"><td colspan="5" class="calcaption"><font face="verdana" size="2" color="#455892"><b>'+caption+'</b></font></td></tr>';
+calobj+='<tr><td colspan="3">';
+calobj+='<select name="calmonth" onChange="updatecalendar()" class="caldropdowns">';
+calobj+='<option>January<option>February<option>March<option>April<option>May';
+calobj+='<option>June<option>July<option>August<option>September<option>October'; 
+calobj+='<option>November<option>December</select>';
+calobj+='</td><td colspan="2" align="right">';
+calobj+='<select name="calyear" onChange="updatecalendar()" class="caldropdowns">';
+
+for (n=firstyear;n<lastyear;n++)
+{
+
+  if (n==year)
+  {
+     calobj+='<option selected value="'+n+'">'+n+'</option>'; 
+ }
+  else
+  {
+    calobj+='<option value="'+n+'">'+n+'</option>';
+  
+  }
+}
+calobj+='</select>';
+calobj+='</td></tr>';
+calobj+='<tr><td colspan="5" class="calinsideborder">';
+calobj+='<table cellspacing="0" class="calinsidesettings" border="1">';
+calobj+='<tr align="center">';
+calobj+='<td width="14%" class="caldays">Sun</td>';
+calobj+='<td width="14%" class="caldays">Mon</td>';
+calobj+='<td width="14%" class="caldays">Tue</td>';
+calobj+='<td width="14%" class="caldays">Wed</td>';
+calobj+='<td width="14%" class="caldays">Thu</td>';
+calobj+='<td width="14%" class="caldays">Fri</td>';
+calobj+='<td width="14%" class="caldays">Sat</td>';
+calobj+='</tr>';
+
+var calcell,calrow
+for (calcell=0;calcell<6;calcell++)
+{ 
+
+calobj+='<tr><td class="calwknd" width="14%" id=cal'+(calcell*7)+' onclick=message('+(calcell*7)+');><input type=text name=txt1 nClick=javaScript:message(this); size=2 readonly=true border=none style=cursor:hand; class=txtbox></td>';
+calobj+='<td width="14%" class="calwkdy" id=cal'+(calcell*7+1)+' onclick=message('+(calcell*7+1)+');><input type=text name=txt1 nClick=javaScript:message(this); size=2 readonly=true border=none style=cursor:hand; class=txtbox></td>';
+calobj+='<td width="14%" class="calwkdy" id=cal'+(calcell*7+2)+' onclick=message('+(calcell*7+2)+');><input type=text name=txt1 nClick=javaScript:message(this); size=2 readonly=true border=none style=cursor:hand; class=txtbox></td>';
+calobj+='<td width="14%" class="calwkdy" id=cal'+(calcell*7+3)+' onclick=message('+(calcell*7+3)+');><input type=text name=txt1 nClick=javaScript:message(this);  size=2 readonly=true border=none style=cursor:hand; class=txtbox></td>';
+calobj+='<td width="14%" class="calwkdy" id=cal'+(calcell*7+4)+' onclick=message('+(calcell*7+4)+');><input type=text name=txt1 nClick=javaScript:message(this); size=2 readonly=true border=none style=cursor:hand; class=txtbox></td>';
+calobj+='<td width="14%" class="calwkdy" id=cal'+(calcell*7+5)+' onclick=message('+(calcell*7+5)+');><input type=text name=txt1 nClick=javaScript:message(this); size=2 readonly=true border=none style=cursor:hand; class=txtbox></td>';
+calobj+='<td class="calwknd" width="14%" id=cal'+(calcell*7+6)+' onclick=message('+(calcell*7+6)+');><input type=text name=txt1 nClick=javaScript:message(this); size=2 readonly=true border=none style=cursor:hand; class=txtbox></td></tr>';                 
+}
+calobj+='</table>';
+calobj+='</td></tr>';
+calobj+='<tr align="center">'; 
+calobj+='<td width="20%">';
+calobj+='<input type="button" name="backyear" value="&lt;&lt;" class="calbutts" onclick=gobackyear();updatecalendar()>';
+calobj+='</td>';
+calobj+='<td width="20%">';
+calobj+='<input type="button" name="backmonth" value="&lt;" class="calbutts" onclick=gobackmonth();updatecalendar()>';
+calobj+='</td>';
+calobj+='<td width="20%">';
+calobj+='<input type="button" name="TODAY" value="TODAY" class="calbutts" onclick=caltoday()>';
+calobj+='</td>';
+calobj+='<td width="20%">';
+calobj+='<input type="button" name="onmonth" value="&gt;" class="calbutts" onclick=goonmonth();updatecalendar()>';
+calobj+='</td>';
+calobj+='<td width="20%">';
+calobj+='<input type="button" name="onyear" value="&gt;&gt;" class="calbutts" onclick=goonyear();updatecalendar()>';
+calobj+='</td>';
+calobj+='</tr>';
+calobj+='</table>';
+calobj+='</td>';
+calobj+='</tr>';
+calobj+='</table>';
+
+document.write(calobj)
+caltoday()
+updatecalendar()
+
+}
+
+// Set today
+//-----------
+
+function caltoday()
+{
+day= now.getDate();
+document.thisForm.calmonth.selectedIndex=now.getMonth();
+document.thisForm.calyear.value=now.getYear();
+updatecalendar()
+}
+
+// Refresh Cells and Dates
+//-------------------------
+
+function updatecalendar()
+{
+month = document.thisForm.calmonth.selectedIndex
+year  = document.thisForm.calyear.value
+
+
+var firstOfMonth = new Date(year,month,1);
+var startingPos = firstOfMonth.getDay();
+
+var curday=1
+var days=monthdays(month,year)
+var prevdays=monthdays(month-1,year)
+var str
+dat = new Date();
+
+for (n=0;n<42;n++)
+{
+document.thisForm.txt1[n].value='';
+  if (startingPos==n)
+  {
+   	
+ 	if (month==now.getMonth()&year==now.getFullYear()&curday==now.getDate())
+	{
+			str=curday
+			document.thisForm.txt1[n].value=curday;
+			document.thisForm.txt1[n].style.color='red';
+			document.thisForm.txt1[n].style.backgroundColor='#D7E9FD';
+		
+	}
+	else
+	{
+			document.thisForm.txt1[n].value=curday;
+			document.thisForm.txt1[n].style.color='black';
+			document.thisForm.txt1[n].style.backgroundColor='#D7E9FD';
+	}
+	setday(n,month,year,curday);
+    startingPos++
+    curday++
+  }
+  else
+  {	
+
+  	  if (startingPos==66)
+	  {
+	 	document.thisForm.txt1[n].style.color='6E6E6E';
+		document.thisForm.txt1[n].style.backgroundColor='white';
+	  setday(n,month+1,year,curday);
+	  str=curday
+ 	  curday++
+	  }
+	  else
+	  {
+	  	document.thisForm.txt1[n].style.color='6E6E6E';
+		document.thisForm.txt1[n].style.backgroundColor='white';
+	 	setday(n,month-1,year,prevdays-startingPos+n+1);
+    	str=prevdays-startingPos+n+1
+	  }
+     document.thisForm.txt1[n].value=str;
+ }
+  
+  if (curday>days){
+  curday=1
+  startingPos=66
+  }
+}
+}
+
+// Set day variables
+//-------------------
+
+function setday(cell,month,year,day)
+{
+month++
+if (month==13){month=1;year++}
+if (month==0){month=12;year--}
+
+var strmon;
+var stryear;
+var strday;
+
+strmon=month.toString();
+if (strmon.length==1){strmon="0"+strmon}
+strday=day.toString();
+if (strday.length==1){strday="0"+strday}
+stryear=year.toString();
+
+cellday[cell]=strday+strmon+stryear
+}
+
+// Check days in month
+//---------------------
+
+function monthdays(month,year)  {
+var days;
+if (month==0 || month==2 || month==4 || month==6 || month==7 || month==9 || month==11 || month==-1 || month==12)  days=31;
+else if (month==3 || month==5 || month==8 || month==10) days=30;
+else if (month==1)  {
+if (leapyear(year)) { days=29; }
+else { days=28; }
+}
+return (days);
+}
+
+// Check for leap year
+//---------------------
+
+function leapyear (Year) {
+if (((Year % 4)==0) && ((Year % 100)!=0) || ((Year % 400)==0)) {
+return (true);
+} else { return (false); }
+}
+
+// Forward one month
+//-------------------
+
+function goonmonth()
+{
+  month = document.thisForm.calmonth.selectedIndex;
+  month++
+  if (month==12)
+  {
+    month=0;
+    goonyear()
+  }
+  document.thisForm.calmonth.selectedIndex=month
+}
+
+// Forward one year
+//------------------
+
+function goonyear()
+{
+  year  = document.thisForm.calyear.value;
+  year++
+  if (year==lastyear){year=firstyear}
+  document.thisForm.calyear.value=year
+}
+
+// Back one month
+//----------------
+
+function gobackmonth()
+{
+
+  month = document.thisForm.calmonth.selectedIndex;
+  month--
+  if (month==-1)
+  {
+    month=11;
+    gobackyear()
+  }
+  document.thisForm.calmonth.selectedIndex=month;
+}
+
+// Back one year
+//---------------
+
+function gobackyear()
+{
+  year  = document.thisForm.calyear.value
+  year--
+  if (year<firstyear){year=lastyear-1}
+  document.thisForm.calyear.value=year
+}
+
+function fnunload(){
+	if (nReturn == 0)
+		window.returnValue="";
+}
+//-->
+	</SCRIPT>
+  </head>
+  <body onUnLoad="fnunload();" topmargin="0" leftmargin="0">
+  <form method=post name="thisForm">
+	<SCRIPT LANGUAGE="JavaScript">
+	  calendar();
+	</SCRIPT>
+	</form>
+  </body>
+</html>
+<!-- made the modifications and made it work on all browsers 
+* by P.Praveenkumar
+* on 27-6-2005 
+* for advance ecommerce solutions
+-->

@@ -1,0 +1,55 @@
+.homeinbody				{ margin:0px; background:url(../images/main_bg_inner.jpg) repeat-x; }
+.menuinnerbg			{ background-color:#fff9d4; border:1px solid #fbe292;}
+.menuinnerbg a 			{ background:url(../images/menu_line_bg.jpg) no-repeat 0px 24px; width:165px; height:22px; display:block; padding:5px 0px 0px 5px; font-family:arial; font-size:12px; color:#333333; text-decoration:none; }
+.menuinnerbg a:hover	{ background:url(../images/menu_box_bg.jpg) no-repeat 0px 0px; width:165px; height:22px; display:block; padding:5px 0px 0px 5px; font-family:arial; font-size:12px; color:#db1a15; text-decoration:none; }
+.titlebg				{ background:url(../images/inner_title_bg.jpg) top left no-repeat; width:164px; height:31px;}
+h1.title				{ font-family:Arial; font-size:16px; color:#dd1815; font-weight:bold; margin:0px; padding:7px 0px 0px 0px; text-align:center;}
+.menuend				{ background-color:#fcd15c; border-right:1px solid #ad590a; border-left:1px solid #ad590a; border-bottom:1px solid #ad590a;}
+.menuend1				{ background-color:#fcd15c; border-right:1px solid #ad590a; border-left:1px solid #ad590a; }
+.menuend2				{ ackground-color:#fcd15c; border-right:1px solid #ad590a; border-left:1px solid #ad590a; border-bottom:1px solid #ad590a;}
+
+.iclr					{ background-color:#fbf7d1; border:1px solid #b8c396; font-family:Arial; font-size:12px; color:#640705;}
+.iclr2					{ font-family:Arial; font-size:12px; color:#3f3a04; background-color:#ffca4d; border-top:#dfe5cd 1px solid; border-left:#dfe5cd 1px solid; border-bottom:#dfe5cd 1px solid;}
+.iclr3					{ font-family:Arial; font-size:12px; color:#3f3a04; background-color:#ffca4d; border-top:#dfe5cd 1px solid; border-left:#dfe5cd 1px solid; border-bottom:#dfe5cd 1px solid;}
+.iclr4					{ font-family:Arial; font-size:12px; color:#333333; background-color:#c1d586; border-top:#dfe5cd 1px solid; border-left:#dfe5cd 1px solid; border-bottom:#dfe5cd 1px solid;}
+.iclr5					{ background-color:#ffffff; border:1px solid #dfe5cd; font-family:Arial; font-size:12px; color:#aa0303;}
+.regfree				{ background:url(../images/reg_free_inner.jpg) no-repeat 0px 0px;  background-color:#f2f5eb; }	
+.advr					{ font-family:Arial; font-size:12px; color:#3f3a04; background-color:#fed569; border-top:#dfe5cd 1px solid; border-left:#dfe5cd 1px solid; border-bottom:#dfe5cd 1px solid;}
+.advr1					{ background-color:#ffffff; border:1px solid #dfe5cd; font-family:Arial; font-size:12px; color:#640705;}
+.wedpad                 { padding:1px 3px 3px 1px;}
+.wedcmbbox				{ color : #000000;	font-family:Arial;	font-size:12px;	height:16px;	width: 180px;	border: 1px #7f9db9 solid;	background-color:white;	}
+.wedbutton		        { color : #ffffff;	font-family:Arial;	font-size:12px;	width:70px;	height:18px;	border: 1px #FFFFFF solid;	background-color:#a80326;	cursor:hand;	text-align: center;	font-weight:bold;	}	
+.weddir					{ color : #000000;	font-family:Arial;	font-size:12px; line-height:18px;	 text-decoration:none;}
+.sums                   { color:#de221b;} 
+.mprlgtbox				{ font-family:Arial;  font-size: 12px; height:18px; width:150px; border: 1px #7f9db9 solid; background-color:white; font-weight:normal;	} 
+a.tdred 				{ font-family:Arial;	font-size:12px; color:#ffffff; text-decoration:underline; font-weight:bold; padding-right:5px; }
+a.tdred:hover          { font-family:Arial;	font-size:12px; color:#fbf6d6; text-decoration:none; font-weight:bold; padding-right:5px;}
+a.wedapp 				{ font-family:Arial;	font-size:12px; color:#de221b; text-decoration:underline; font-weight:bold;}
+a.wedapp:hover          { font-family:Arial;	font-size:12px; color:#000000; text-decoration:none; font-weight:bold;}
+a.readstr			    { font-family:arial; font-size:12px; color:#dd1b17; font-weight:bold; text-decoration:underline; }		
+a.readstr:hover			{ font-family:arial; font-size:12px; color:#000000; font-weight:bold; text-decoration:none; }		
+.loginbg				{ background:url(../images/login_inbg.jpg) left top no-repeat;}
+h5.mlogin			 	{ margin:0px; font-family:arial; font-size:13px; color:#a80326; font-weight:bold;}
+h4.htitle				{ margin:0px; padding:5px 0px 5px 0px; color:#ba3501; font-family:Arial; font-size:14px; }
+.benfits				{ line-height:18px; margin:0px; padding-bottom:4px; }
+a.member 				{ color:#d16c00; font-family:Arial; font-size:12px; text-decoration:underline; }
+a.member:hover			{ color:#d16c00; font-family:Arial; font-size:12px; text-decoration:none; }
+.upgnow					{ background:url(../images/upgrade_now.jpg) no-repeat right bottom; background-color:#fff2d4; border-top:1px solid #d8caad; border-bottom:1px solid #d8caad; border-right:1px solid #d8caad; }	
+a.forgot 				{ color:#405e11; font-family:Arial; font-size:12px; font-weight:bold;  text-decoration:underline; }
+a.forgot:hover			{ color:#a80326; font-family:Arial; font-size:12px; font-weight:bold;  text-decoration:none; }
+.loginbox			 	{ font-family: Arial;  font-size: 12px; height:18px; width: 118px; border: 1px #707e49 solid; background-color:#FFFFFF; font-weight:normal;	}
+.regtop					{ background:url(../images/reg_top.jpg) top left no-repeat;}
+a.horoscope				{ font-family:Arial; font-size:12px; color:#dd1915;  text-decoration:underline;}
+a.horoscope:hover		{ font-family:Arial; font-size:12px; color:#333333; text-decoration:none;}
+.thanks					{ background:url(../images/thanks_bg.jpg) left top no-repeat; width:575px; height:297px;}
+.thankstxt				{ font-family:Arial; font-size:12px; color:#333333; argin:20px 70px 10px 70px;}
+a.back 					{ color:#000000; font-family:Arial; font-size:12px; font-weight:bold;  text-decoration:underline; }
+a.back:hover			{ color:#000000; font-family:Arial; font-size:12px; font-weight:bold;  text-decoration:none; line-height:18px; }
+.regall					{ background:url(../images/reg_page_all.jpg) top left no-repeat;}
+.reghbtm				{ background:url(../images/reg_btm_half.jpg) bottom left no-repeat; }
+a.idclr					{ font-family:Arial; font-size:12px; color:#dd1815; text-decoration:underline;}
+a.idclr:hover			{ font-family:Arial; font-size:12px; color:#dd1815; text-decoration:none;}
+a.accmore				{ color:#cd2530; font-family:Arial; font-size:12px;  text-decoration:none; }
+a.accmore:hover			{ color:#470101; font-family:Arial; font-size:12px; text-decoration:underline; }
+.cmpbg         			{ background:url(../images/cmp_bg.jpg) top left no-repeat; width:494px; height:494px; border:#999999 1px solid; background-color:#f8f7f7;}
+.conbg 					{ background:url(../images/contactbg.jpg) top left no-repeat; width:570px; height:194px; }

@@ -1,0 +1,18 @@
+/* 
+    Document   : ie7
+    Created on : Oct 5, 2012, 1:30:01 PM
+    Author     : sushant prasad
+    Description:
+        Purpose of the stylesheet follows.
+*/
+ul li {list-style: none;}
+.ca-support-links { margin-left: 75px; margin-top: -55px; padding-left: 20px;}
+#monyog-beta-switch {width: 425px; margin-top: 35px;}
+#wy-help-icon {margin-left: 5px;}
+.upgrade-form-button-table table td {margin-left: 0px; padding-left: 0px;}
+.cart-buttons-block {clear: both; float: right; width: 410px; margin-left: 00px;}
+
+.cart-buttons-block input[type='button'] { float: left;}
+#checkoutButton {margin-right: 15px;}
+#card-icons-block {padding-left: 175px;}
+.form-error {display: none;}

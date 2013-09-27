@@ -1,0 +1,288 @@
+body 				{ margin:0px; }
+td					{ font-family:Arial; margin:0px; font-size:12px;  }
+a.menu				{ color:#ffffff; font-family:Arial; font-size:12px; font-weight:bold; text-decoration:none; }
+a.menu:hover		{ color:#3e6700; font-family:Arial; font-size:12px; font-weight:bold;  text-decoration:none; }
+a.submenu			{ color:#cd2530; font-family:Arial; font-size:12px; text-decoration:none; }
+a.submenu:hover		{ color:#333333; font-family:Arial; font-size:12px; text-decoration:none; }
+a.btmmenu			{ color:#012802; font-family:Arial; font-size:12px; ont-weight:bold; text-decoration:none; }
+a.btmmenu:hover		{ color:#B5B5B5; font-family:Arial; font-size:12px; ont-weight:bold; text-decoration:none; }
+.menup		 		{ color:#B36700; font-family:arial; font-size:11px; padding:0px 10px 0px 10px;  }
+.homebody			{ margin:0px; background:url(../images/main_bg_home1.jpg) repeat-x;  }
+.leftimg			{ background:url(../images/dsn_left.jpg) no-repeat left top; width:100%; margin:auto;}
+.homemain			{ padding:9px 0px 0px 0px; float:left }
+.home				{ padding:0px 0px 0px 26px}
+.bg					{ ackground:url(../images/_bg.jpg) left top repeat-x; height:35px;}
+.tdsub				{ height:22px; padding:0px 0px 0px 0px; color:#B36700}
+.bannerbg			{ ackground:url(../images/banner_bg.jpg)  left top repeat-x; height:398px;}
+.partner			{ float:left; background:url(../images/partner_login.jpg) no-repeat top left; width:263px; height:348px; padding:0px 0px 0px 0px; font-family:arial; font-size:11px; color:#000000;}
+.btmbg				{ background: url(../images/btm_bg.jpg)  left top repeat-x; height:128px;}						
+.bmenup		 		{ color:#014803; font-family:arial; font-size:10px; padding:0px 5px 0px 5px;  }
+.btmmenubg			{ border-top:1px solid #CCCCCC;}
+.regdsn				 { margin:23px 17px 23px 17px; border-left:solid 1px #ebc002; border-right:solid 1px #ebc002; padding:0px 20px 0px 20px;}
+.indtop				 { background:url(../images/regdsn_top.jpg) top center no-repeat; width:618px; height:98px;}
+.indbtm				 { background:url(../images/regdsn_btm.jpg) bottom center no-repeat; width:618px; height:98px;}
+
+a.sub				{ font-family:Arial; font-size:12px; color:#453b3a; text-decoration:none;}
+a.sub:hover			{ font-family:Arial; font-size:12px; color:#dd1815; text-decoration:none;}
+h5.mlogin			{ margin:0px; font-family:Arial; font-size:13px; color:#000000; font-weight:bold;}
+h4.intitle			{ margin:0px; font-family:Arial; font-size:13px; color:#dd1915; font-weight:bold;}
+h5.psearch			{ margin:0px; font-family:Arial; font-size:14px; color:#330101; font-weight:bold;}
+.txtcbomultiple		{ font-family:arial; font-size: 11px; color: #000000; height: 70px; width: 250px; border: 1px solid #B5B5B5; background-color:#ffffff;	}
+.agebox				{ font-family:Arial;  font-size: 12px; height: 20px; width:40px; border: 1px #B5B5B5 solid; background-color:white; font-weight:normal;	} 
+.adtxtbox			{ font-family:Arial;  font-size: 12px; height: 20px;  border: 1px #B5B5B5 solid; background-color:white; font-weight:normal;	} 
+.txtbox				{ font-family:Arial;  font-size: 12px; height: 20px; width:144px; border: 1px #B5B5B5 solid; background-color:white; font-weight:normal;	} 
+.txtbox1			{ font-family:Arial;  font-size: 11px; height: 20px; width:70px; border: 1px #B5B5B5 solid; background-color:white; font-weight:normal;	} 
+.txtsmallbox		{ font-family:Arial;  font-size: 12px; height: 17px; width:100px; border: 1px #000000 solid; background-color:white; font-weight:normal;	} 
+.regbox				{ font-family:Arial;  font-size: 11px; height: 20px; width:100px; border: 1px #B5B5B5 solid; background-color:white; font-weight:normal;	} 
+.pinbox             { font-family:Arial;  font-size: 11px; height: 20px; width:40px; border: 1px #B5B5B5 solid; background-color:white; font-weight:normal; } 
+a.reg				{ color:#dd1815; font-family:Arial; font-size:12px;  text-decoration:none; }
+a.reg:hover			{ color:#80a20f; font-family:Arial; font-size:12px;  text-decoration:none; }
+.mailbox			{ font-family:Arial;  font-size: 12px; height: 18px; width: 120px; border: 1px #707e49 solid; background-color:white; font-weight:normal; }
+.dominbox			{ font-family:Arial;  font-size: 12px; height: 21px; width:125px; border: 1px #B5B5B5 solid; background-color:white; font-weight:normal;	} 
+.bannerimg			{ background: url(../images/banner.jpg) no-repeat top right; height:287px;}
+.story				{ font-family:arial; font-size:12px;  color:#220000; padding:0px 5px 0px 5px; line-height:18px;}
+h4.success			{ font-family:arial; font-size:14px; font-weight:bolder; color:#B36700; margin:0px; padding:10px 0px 0px 10px; }
+.name				{ font-family:arial; font-size:10px;  color:#3e6700;}
+a.more				{ color:#cd2530; font-family:Arial; font-size:12px;  text-decoration:underline; }
+a.more:hover		{ color:#470101; font-family:Arial; font-size:12px; text-decoration:none; }
+a.lout				{ color:#ffad03; font-family:Arial; font-size:12px;  text-decoration:underline; font-weight:bold; }
+a.lout:hover		{ color:#470101; font-family:Arial; font-size:12px; text-decoration:none; font-weight:bold; }
+
+a.franchise				{ color:#cd2530; font-family:Arial; font-size:12px;  text-decoration:underline; }
+a.franchise	:hover		{ color:#470101; font-family:Arial; font-size:12px; text-decoration:none; }
+.bdrin				{ border-left:solid 1px #dda1ae; border-right:solid 1px #dda1ae;}
+.btmbg				{ border-top:solid 1px #bcc368;   }
+.copy				{ font-family:Arial; font-size:11px;  color:#616161;}
+a.btm				{ color:#012802; font-family:Arial; font-size:12px; ont-weight:bold; text-decoration:none; padding:7px; }
+a.btm:hover			{ color:#990000; font-family:Arial; font-size:12px; ont-weight:bold; text-decoration:none; }
+.btmbg				{ color:#012802; font-family:Arial; font-size:12px; ont-weight:bold; }
+/*.mandatory			{ color:#dd1815; font-size:12px; font-family:Arial; text-decoration:none; }
+.basideal			{ font-family:Arial; font-size:13px; color:#fbf7d8; font-weight:bold; text-decoration:none; padding-left:15px; background-color:#dd1815; height:25px;}*/
+.cmbbox				{ color : #000000;	font-family:Arial;	font-size:12px;	height: 20px;	width: 150px;	border: 1px #C8D7FF solid;	background-color:white;	}
+.regbg				{ background:url(../images/basic_detailbg.jpg) left top no-repeat; width:468px; height:383px; }
+.logbg				{ background:url(../images/login_bg.jpg) left top no-repeat; width:468px; height:181px; }
+a.cast				{ color:#dd1815; font-family:Arial; font-size:11px;  text-decoration:underline; }
+a.cast:hover		{ color:#000000; font-family:Arial; font-size:11px;  text-decoration:none; }
+.star				{ color:#dd1815;}
+a.language			{ padding:11px 9px 9px 9px; margin-top:2px;  float:left; font-family:Arial; font-size:13px; color:#FFFFFF; text-decoration:none; display:block;}
+a.language:hover	{ color:#db1a15; background-color:#fee19f; font-size:13px;}
+a.language1			{ padding:11px 9px 9px 9px; margin-top:2px; float:left; font-family:Arial; font-size:13px; color:#db1a15; text-decoration:none; display:block; background-color:#fee19f}
+a.language1:hover	{ color:#db1a15; background-color:#fee19f; font-size:13px;}
+.castnew			{ font-family:arial; font-size:11px;  color:#dd1815; padding:0px 0px 0px 0px; line-height:18px;}
+.button			    { color : #FFFFFF;	font-family:Arial;	font-size:12px;	width:70px;	height:18px;	border: 1px #FFFFFF solid;	background-color:#a80326;	cursor:hand;	text-align: center;	font-weight:bold;	}	
+
+.button1			    { color : #FFFFFF;	font-family:Arial;	font-size:12px;	width:150px;	height:18px;	border: 0px #FFFFFF solid;	background-color:#a80326;	cursor:hand;	text-align: center;	font-weight:bold;	}	
+.button2			    { color : #FFFFFF;	font-family:Arial;	font-size:12px;	width:80px;	    height:20px;	border: 1px #000 solid;	background-color:#a80326;	cursor:hand;	text-align: center;	font-weight:bold;	}	
+.bdr				{border-bottom-color:#fffdeb 2px solid;}
+
+table.one
+{
+border: #ffb700 1px solid;
+}
+
+.button_large       { color : #FFFFFF;	font-family:Arial;	font-size:12px;	width:100px;	height:18px;	border: 1px #FFFFFF solid;	background-color:#a80326;	cursor:hand;	text-align: center;	font-weight:bold;	}	 
+.ingbg				{ background:url(../images/search_bg.jpg) bottom right no-repeat; background-color:#feb92d; width:245px; height:83px;}
+.sstory				{ font-family:Arial; font-size:11px; color:#000000; line-height:18px;}
+
+/* Styles added by Karthik.P - Tooltip styles*/
+
+ .thdrcell 			{ background:#F3F0E7;	font-family:Arial;	font-size:12px;	font-weight:bold;	padding:5px;	border-bottom:1px solid #C8BA92; } 
+ .tdatacell 		{ font-family:Arial;	font-size:12px;	padding:5px;	background:#FFFFFF } 
+ .dvhdr1			{ background:#F3F0E7;	font-family:Arial;	font-size:12px;	font-weight:bold;	border:1px solid #C8BA92;	padding:5px;	width:150px; }
+ .dvbdy1 			{ background:#FFFFFF;	font-family:Arial;	font-size:12px;	border-left:1px solid #C8BA92;	border-right:1px solid #C8BA92;	border-bottom:1px solid #C8BA92;	padding:5px;	width:150px; }
+ p 					{ margin-top:20px; }
+ h1 				{ font-size:13px; }
+ .dogvdvhdr 		{ width:300;	background:#C4D5E3;	border:1px solid #C4D5E3;	font-weight:bold;	padding:10px; }
+ .dogvdvbdy 		{ width:300;	background:#FFFFFF;	border-left:1px solid #C4D5E3;	border-right:1px solid #C4D5E3;	border-bottom:1px solid #C4D5E3;	padding:10px; }
+ .pgdiv 			{ width:320; height:250; background:#E9EFF4; border:1px solid #C4D5E3; padding:10px; margin-bottom:20; font-family:arial; font-size:12px; }
+ a.sucyear			{  padding:4px 4px 4px 4px; float:left; font-family:arial; font-size:11px; color:#fdda89; text-decoration:none; display:block;}
+ a.sucyear:hover	{ color:#000000; background-color:#fee19f}
+ .tbl_title{color:#ae1213;}
+ .add_title{color:#ae1213; font-size:14px; padding-left:20px;}
+ 
+a.faq				{ color:#000000; font-family:Arial; font-size:12px;  text-decoration:none; ont-weight:bold; }
+a.faq:hover		{ color:#000000; font-family:Arial; font-size:12px;  text-decoration:underline; ont-weight:bold; }
+
+a.faq_inner				{ color:#ae1213; font-family:Arial; font-size:12px;  text-decoration:none; ont-weight:bold; }
+a.faq_inner:hover		{ color:#470101; font-family:Arial; font-size:12px;  text-decoration:underline; ont-weight:bold; }
+
+a.faq_inner1			{ color:#ae1213; font-family:Arial; font-size:12px;  text-decoration:none; ont-weight:bold; line-height:18px;}
+a.faq_inner1:hover		{ color:#ae1213; font-family:Arial; font-size:12px;  text-decoration:underline; ont-weight:bold; }
+
+
+a.back				{ color:#ae1213; font-family:Arial; font-size:11px;  text-decoration:none; font-weight:bold; }
+a.back:hover		{ color:#FF0000; font-family:Arial; font-size:11px;  text-decoration:underline; font-weight:bold; }
+a.widding_menu		 { font-family:Arial; font-size:12px; color:#de221b; text-decoration:none; font-weight:bold;}
+a.widding_menu:hover { font-family:Arial; font-size:12px; color:#000000; text-decoration:none; font-weight:bold;}
+ul.tbl_faq
+{
+	text-align:left;
+	padding:5px 0px 0px 0px;
+	list-style-type:none;
+	margin:0px;
+}
+
+ul.tbl_faq li
+{
+	background:	url(../images/faq_bullet.jpg) no-repeat 0px 3px;
+	padding:0px 2px 4px 5px;
+}
+
+ul.tbl_faq1
+{
+	text-align:left;
+	padding:5px 0px 0px 0px;
+	list-style-type:none;
+	margin:0px;
+}
+
+ul.tbl_faq1 li
+{
+	background:	url(../images/faq_bullet1.jpg) no-repeat 0px 3px;
+	padding:0px 2px 4px 17px;
+}
+
+ul.exp
+{
+	text-align:left;
+	padding:5px 0px 0px 0px;
+	list-style-type:none;
+	margin:0px;
+	
+}
+
+ul.exp li
+{
+	background:	url(../images/exp_arrow.gif) no-repeat 5px 5px;
+	padding:0px 2px 15px 10px;
+}
+
+ul.exp1
+{
+	text-align:left;
+	padding:5px 0px 0px 12px;
+	list-style-type:none;
+	margin:0px;
+	
+}
+
+ul.exp1 li
+{
+	background:	url(../images/exp_arrow.gif) no-repeat 5px 5px;
+	padding:0px 2px 15px 20px;
+}
+
+
+ul.addphoto
+{
+	text-align:left;
+	padding:12px 0px 0px 40px;
+	list-style-type:none;
+	margin:0px;
+}
+
+ul.addphoto li
+{
+	background:	url(../images/hand_bullet.gif) no-repeat 0px 3px;
+	padding:0px 2px 4px 25px;
+}
+
+.map{background:url(../images/map.jpg) no-repeat; width:325px; height:337px;}
+
+ /* Styles added by Karthik.P - Tooltip styles*/
+.popbg	
+{
+	background:url(../images/menu_bg.jpg) left top repeat-x; height:25px;
+}
+
+.title_terms{color:#dd1815; font-family:Arial; font-size:12px;}
+
+.cmbbox
+	{
+	font-family:arial; font-size:11px; height:20px; width:175px; background-color:white;
+	}
+	
+	.cmbbox1
+	{
+	font-family:arial; font-size:11px; height:20px; width:150px; background-color:white;
+	}
+	
+
+.mulbox
+	{
+	font-family:arial; font-size:11px; eight:20px; width:150px; border:1px #CCCCCC solid;
+	}
+	
+.mulbox1
+	{
+	font-family:arial; font-size:11px; eight:20px; width:150px; border:1px #CCCCCC solid; margin-top:3px;
+	}
+	
+.txtbox
+	{
+	font-family:arial; font-size:12px; eight:20px; width:194px; border:1px #c5dc9b solid; 
+	}
+	
+.txtbox1
+	{
+	font-family:arial; font-size:10px; eight:20px; width:150px; border:1px #707e49 solid; 
+	}
+	
+.addphoto1{background:url(../images/add_photoimg.gif) no-repeat 390px 10px;} 
+
+.tips_topbg
+{
+background:url(../images/tips_top.jpg) no-repeat; width:500px; height:10px; margin:0px;}
+
+.tips_midbg
+{
+background:url(../images/tips_mid.jpg) repeat-y; width:500px; height:10px; margin:0px; vertical-align:top; font-size:12px;}
+
+.tips_btmbg
+{
+background:url(../images/tips_btm.jpg) no-repeat; border:0px; width:500px; height:10px; margin:0px;}
+
+.forward_topbg
+{
+background:url(../images/forward_topbg.jpg) no-repeat; width:574px; height:12px; margin:0px;}
+
+.forward_midbg
+{
+background:url(../images/tips_mid.jpg) repeat-y; width:500px; height:10px; margin:0px; vertical-align:top; font-size:11px;}
+
+.forward_btmbg
+{
+background:url(../images/tips_btm.jpg) no-repeat; width:574px; height:14px; margin:0px;}
+
+.forwardbg
+{
+background:url(../images/forward_profilebg.jpg) no-repeat; width:574px; height:241px; margin:0px;}
+
+.txtarea
+	{
+	font-family:arial; font-size:11px; height:50px; width:150px; border:1px #CCCCCC solid;
+	}
+.txtarea1
+	{
+	font-family:arial; font-size:11px; height:70px; width:150px; border:1px #CCCCCC solid;
+	}	
+a.sid					{ color:#990000; font-family:Arial; font-size:11px; ont-weight:bold; text-decoration:underline; padding:5px; }
+a.sid:hover				{ color:#990000; font-family:Arial; font-size:11px; ont-weight:bold; text-decoration:none; }
+
+.deletebg{
+background:url(../images/eraser.gif) no-repeat; width:207px; height:134px; float:right; margin:0px;}
+.chatbg  { background:url(../images/img_chatbg.jpg) left top no-repeat; height:328px;}
+.viewbg  {background:url(../images/contact_bg.jpg) center top no-repeat; width:573px; height:425px;}
+
+
+.packtxtbox				{ font-family:Arial;  font-size: 12px; height: 20px; width:144px; border: 1px #a80326 solid; background-color:white; font-weight:normal;	} 
+.register_border {
+	border: 1px solid #8F8443;
+}
+.textarea {
+	height: 150px;
+	width: 250px;
+}
+.correct-border-right{
+    border-right: 1px solid #CED8AF;
+}

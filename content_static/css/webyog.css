@@ -1,0 +1,1575 @@
+    /*webyog.css*/
+
+/*
+    Styling for all elements used througout the site
+*/
+html,
+body {
+    margin:0;
+    padding:0;
+    height:100%;
+    background: #f2f8fb;
+    color: #222426;
+}
+body    {overflow-y:scroll;}
+
+/*
+    Default properties for elements.
+*/
+*{
+    font-family: "segoe-ui";
+    margin: 0;
+    padding: 0;
+    border: 0;
+    color: #222426;
+}
+
+/*
+    fonts used throughout the site
+*/
+
+@font-face
+{
+    font-family: "segoe-ui";
+    src: url("../fonts/SegoeUI.eot");
+    src: url("../fonts/SegoeUI.eot?#iefix") format('embedded-opentype'),
+        url("../fonts/SegoeUI.ttf");
+}
+
+@font-face
+{
+    font-family:  "segoe-ui";
+    src:url("../fonts/SegoeUISemibold.eot");
+    src: url("../fonts/SegoeUISemibold.eot?#iefix") format('embedded-opentype'),
+        url("../fonts/SegoeUISemibold.ttf");
+    font-weight:bold;
+}
+
+
+@font-face
+{
+    font-family: "proxima-nova";
+    src: url("../fonts/proxima-nova.otf"),
+        url("../fonts/proxima-nova-bold.otf"),
+        url("../fonts/proxima-nova-medium.otf")
+        ;
+
+}
+
+
+/*
+    Styling for wrappers
+*/
+/* the wrapper for the page content*/
+.wy-main-wrapper {
+    min-height:100%;
+    position:relative;
+}
+
+
+#wy-header-wrapper{
+    border-top: 1px solid #254e96;
+    height: 118px;
+    background: #fff;
+}
+
+#wy-footer-wrapper {
+    border-top: 1px solid #c9c8cd;
+    background-color: #f2f1f6;
+    height: 105px;
+
+    position: absolute;
+    width:100%;
+    bottom:0;
+    left:0;
+}
+
+#wy-footer-wrapper .wy-font-level-4{
+    line-height: 20px;
+}
+
+
+/*
+    Styling for the header.
+*/
+
+#wy-header-wrapper .wy-container{
+    overflow: visible;
+}
+/*
+    Styling for the search box in the header wrapper.
+*/
+.wy-search-box{
+
+    border: 1px solid #C9C9C9;
+    padding: 5px 5px 5px 10px;
+    height:20px;
+    width: 275px;
+}
+
+
+.wy-search-box-icon{
+    background : url("../images/sprites.png") no-repeat scroll transparent;
+    right: -295px;
+    background-position: -56px 7px;
+    background-color:#00458e;
+    z-index: 20;
+    height:32px;
+    width:34px;
+    position: relative;
+}
+
+.wy-search-box-icon:hover{
+    background-color:#002d72;
+}
+
+/*
+    Styling for the footer.
+*/
+.wy-clear-footer{
+    height:64px;
+}
+
+
+#wy-footer-wrapper a{
+    color: inherit;
+    text-decoration: none;
+}
+
+
+
+
+
+/*
+    The 5 levels of fonts used throughout the site, with default line heights.
+*/
+.wy-font-level-1{
+    font-size: 35px;
+    font-weight: bold;
+}
+
+
+.wy-font-level-2{
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.wy-font-level-3{
+    font-size: 15px;
+    line-height: 26px;
+}
+
+.wy-font-level-4{
+    font-size: 13.5px;
+    line-height: 26px
+
+}
+
+.wy-inner-fourth ul li div .wy-font-level-5,    
+.wy-font-level-5{
+    font-size: 11.5px;
+    line-height: 26px;
+
+
+}
+
+.wy-content-wrapper .wy-font-level-3,
+.wy-content-wrapper .wy-font-level-4,
+.wy-content-wrapper .wy-font-level-5{
+    font-weight: 500;
+}
+
+
+
+/*
+    Styling to float elements.
+*/
+.wy-left{
+    float: left;
+}
+
+.wy-right{
+    float: right;
+}
+
+/*
+    Use this to clear of floating divs.
+*/
+.wy-clear{
+    clear: both;
+}
+
+
+
+
+/*
+    Styles used to create container divs.
+*/
+
+/*
+    The container we want to control for display.
+*/
+.wy-container {
+    width: 960px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+
+
+/*half of the page*/
+.wy-half-tab{
+    width:425px;
+}
+
+
+/*
+    A container to be placed inside a full container. An inner container.
+*/
+.wy-inner-full-container{
+    width: 920px;
+    margin: 0 auto;
+    padding-top: 30px;
+    padding-bottom: 45px;
+    padding-left: 20px;
+    padding-right:20px;
+}
+/*
+     A container which covers half of an inner container.
+*/
+.wy-inner-half{
+    width: 430px;
+    display: inline-block;
+}
+/*
+     A container which covers a third of an inner container.
+*/
+#aws-marketplace,
+#hp-marketplace,
+.wy-inner-third{
+    width: 340px;
+}
+/*
+    An inner fourth
+*/
+.wy-inner-fourth{
+    width: 204px;
+    max-width: 204px;
+}
+/*
+    A button container.
+*/
+.wy-button-container{
+    width: 220px;
+}
+
+
+
+
+
+/*
+    Styling for buttons
+*/
+
+/*
+    Default styling for buttons.
+*/
+.wy-button{
+    width: 205px;
+    height: 50px;
+    line-height: 50px;
+    color:white;
+    background: #00458e;
+    cursor: pointer;
+}
+
+.wy-small-button {width: 100px !important; height:40px !important; line-height: 40px !important;}
+
+/*
+    A button which fits in an inner third container.
+*/
+
+.wy-third-button{
+    width: 325px;
+    height: 55px;
+    line-height: 55px;
+}
+
+/* 
+    Download button.
+*/
+.wy-download-button{
+    width: 430px;
+    height: 55px;
+    line-height: 55px;
+}
+
+
+
+/*
+    Tabs used to display links
+*/
+.wy-tab{
+    vertical-align: middle;
+    display: inline-block;
+    height: 50px;
+}
+
+
+
+
+
+
+/*
+    Styling to specify colors.
+*/
+
+/*
+    Class for white text. On a dark background.
+*/
+.wy-white{
+    color: white;
+}
+
+.wy-red{
+    color: red !important;
+}
+
+.wy-multiyear-text{
+    color: #4c4c4c;
+}
+
+.wy-grey{
+    background-color: #f5f6fa;
+}
+.wy-grey-force{
+    background-color: #f5f6fa !important;
+}
+
+#shopping-cart-header-bar .wy-grey div:hover {
+    background-color: red;
+}
+.wy-black{
+    color: #222426;
+}
+.wy-green{
+    background: #78b129;
+}
+.wy-link-color {
+    color: #222426 !important;
+}
+.wy-wrapper-blue,
+div.wy-wrapper-blue{
+    background-color: #285bab;
+}
+
+/*
+    Styling for aligning text.
+*/
+.wy-left-text{
+    text-align: left;
+}
+
+.wy-right-text{
+    text-align: right;
+}
+
+.wy-disabled-text {
+    color: #4c4e50;
+}
+/*
+    Align text to center.
+*/
+.wy-center-text{
+    text-align : center;
+}
+
+
+
+
+
+/*
+    Styling for links in the header wrapper.
+*/
+.wy-link-list ul li:last-child a {
+    padding-right: 0px;
+}
+
+.wy-link-list ul li a:hover{
+    color:#285bab;
+}
+
+.wy-restrict-width{
+    max-width: 700px;
+    width: 700px;
+    height: 118px;
+    position: relative;
+}
+
+.wy-reset-padding { padding: 0px !important; padding-top: 10px !important;}
+.wy-reset-padding-mini { padding: 0px !important;}
+
+
+/*
+    Styling for special numbers, inside special text.
+    Special text is text that deserves user attention.
+*/
+.wy-special-text  .special-number{
+    /*    font-family: "trebuchet MS";*/
+    color: white;
+}
+.wy-main-wrapper .wy-content-wrapper .wy-bold {
+    font-weight: bold; 
+}
+.wy-usd-size {font-size: 24px;}
+
+
+/*
+    Styling for the dropdown menu in the header
+*/
+#dropdown-menu{
+    list-style:none;
+    margin-bottom:0px;
+    /* Clear floats */
+    float:left;
+    width:100%;
+    position:relative;
+    z-index:5;
+
+}
+
+#dropdown-menu .wy-selected-tab{
+    color: white;
+}
+#dropdown-menu li{
+    float:left;
+    margin-right:5px;
+    position:relative;
+    height: 40px;
+}
+
+
+#dropdown-menu a{
+    text-decoration: none;
+    padding: 6px 25px;
+    color: #222426;
+    font-weight: 575;
+}
+#dropdown-menu a:hover{
+    color:#002d72;
+}
+#dropdown-menu a.wy-selected-tab:hover{
+    color:white;
+}
+#dropdown-menu > li:last-child {
+    padding-right: 0px;
+    margin-right: 0px;
+}
+#dropdown-menu > li:last-child a{
+    padding-right: 0px;
+    margin-right: 0px;
+}
+/*--- DROPDOWN ---*/
+#dropdown-menu ul a:hover{
+    color:white;
+}
+#dropdown-menu ul li {
+    margin-top: 3px;
+    background-color: white;
+}
+#dropdown-menu ul li a{
+    display: block;
+    width: 120px;
+    height: 35px;
+    line-height: 35px;
+    color: white;
+    background-color: #00458e;
+}
+#dropdown-menu ul{
+    z-index: 999999;
+    margin-top: 10px;
+    background:rgba(255,255,255,0); /* But! Let's make the background fully transparent where we can, we don't actually want to see it if we can help it... */
+    list-style:none;
+    position:absolute;
+    left:-9999px; /* Hide off-screen when not needed (this is more accessible than display:none;) */
+}
+#dropdown-menu ul li{
+    z-index: 999999;
+
+    float:none;
+}
+#dropdown-menu ul a{
+    white-space:nowrap; /* Stop text wrapping and creating multi-line dropdown items */
+}
+#dropdown-menu li:hover ul{ /* Display the dropdown on hover */
+    z-index: 999999;
+    left:0; /* Bring back on-screen when needed */
+}
+#dropdown-menu li:hover a{ /* These create persistent hover states, meaning the top-most link stays 'hovered' even when your cursor has moved down the list. */
+    z-index: 999999;
+}
+#dropdown-menu li:hover ul a{ /* The persistent hover state does however create a global style for links even before they're hovered. Here we undo these effects. */
+    z-index: 999999;
+    border-top:1px solid white; /* Introducing a padding between the li and the a give the illusion spaced items */
+    text-decoration:none;
+}
+#dropdown-menu li:hover ul li a:hover{ /* Here we define the most explicit hover states--what happens when you hover each individual link. */
+    background-color: #002d72;
+    z-index: 999999;
+}
+/*
+    Old visitors get options. Show down arrow to display these.
+*/
+.wy-old-visitors-tab{
+    background: url("../images/sprites.png") no-repeat scroll transparent;
+    background-position:  50px  23px;
+}
+/* Styling for the selected tab.*/
+.wy-selected-tab{
+    background: #00458e;
+    color: white;
+}
+/*
+    Styling for the search box in the header.
+*/
+#wy-webyog-search{
+    margin-top: 15px;
+    margin-bottom: 10px;
+    height: 50px;
+}
+#wy-logo{
+    margin-top: 25px;
+}
+
+
+
+
+
+/*
+    Special text. Deserves attention. Of the users.
+*/
+.wy-special-text{
+    /*    text-shadow: 0px -1px #000;*/
+    font-weight: bold;
+    text-transform: uppercase;
+    color: white;
+}
+
+
+.dl{
+    padding: inherit;
+}
+
+
+/*
+    A tab inside an inner container.
+*/
+.wy-inner-inner-tab{
+    background-color: #1d75d6;
+    /*    border: 1px solid #4caae2;*/
+}
+
+/*
+    A Alert notification tab inside an inner container.
+*/
+.wy-alert-tab{
+    background-color: #fcd9d5;
+    border: 1px solid red;
+}
+
+.wy-content-wrapper .wy-inner-inner-tab a{
+    color: #a5f9ff;
+}
+
+/*
+    The label that a user clicks on. The click opens a download.
+*/
+.wy-product-download-label-text,
+.wy-product-download-label{
+    height: 50px;
+    line-height: 50px;
+}
+
+#monyog-logo{
+    height: 90px;
+    width: 85px;
+    background-position: -85px -225px;
+}
+
+#sqlyog-logo{
+    height: 90px;
+    width: 85px;
+    background-position: 0px -229px;
+}
+
+#sqlyog-logo-black{
+    height: 50px;
+    width: 55px;
+    background-position: -184px -320px;
+}
+#monyog-logo-black{
+    height: 60px;
+    width: 55px;
+    background-position: -262px -320px;
+}
+
+
+.wy-testimonial-video{
+    width: 500px;
+}
+
+.wy-testimonial-video-text{
+    width: 300px;
+}
+
+
+
+
+
+.wy-green:hover,
+.wy-button.wy-green:hover{
+    background-color:#599100;
+    border-color: #71a927;
+}
+
+
+.wy-button:hover,
+.hoverable:hover{
+    background-color: #002d72;
+}
+
+/*
+    Product logo wrapper
+*/
+.wy-product-logo-wrapper{
+    background: #285bab;
+    left: 0px;
+    height: 100px;
+    line-height: 95px;
+    color: white;
+}
+
+.wy-product-logo-wrapper-white-background{
+    left: 0px;
+    height: 60px;
+    line-height: 55px;
+}
+
+.wy-product-logo-wrapper .wy-container{
+    overflow: hidden;
+    position: relative;
+}
+
+/*
+    Product logo image
+*/
+.wy-product-logo-image{
+    position: absolute;
+    top:20px;
+}
+
+/*
+    Product logo description
+*/
+.wy-product-logo-description{
+    position: relative;
+}
+
+
+
+
+
+/* 
+    Styling for paddings and margins used throughout the site
+*/
+
+/*
+    top
+*/
+.wy-top-padding{
+    padding-top: 20px;
+}
+
+/*
+    Large top padding
+*/
+.wy-extra-padding{
+    padding-top: 40px;
+}
+
+
+.wy-top-margin{
+    margin-top:30px;
+}
+
+.wy-small-top-margin{
+    margin-top:20px;
+}
+
+.wy-really-small-top-margin{
+    margin-top:10px;
+}
+
+.wy-really-really-small-top-margin{
+    margin-top:6px;
+}
+
+
+
+
+/*
+    bottom
+*/
+.wy-bottom-margin{
+    margin-bottom:30px;
+}
+
+
+.wy-small-top-bottom-padding{
+    padding-top:20px;
+    padding-bottom:20px;
+}
+
+.wy-small-bottom-margin{
+    margin-bottom:20px;
+}
+
+
+
+/* left and right*/
+.wy-default-left-right-padding{
+    padding-left:20px;
+    padding-right:20px;
+}
+
+
+.wy-default-left-right-margin{
+    margin-left:20px;
+    margin-right:20px;
+}
+
+
+
+/* mixed */
+/*
+    Extra big margins.
+*/
+.wy-extra-margins{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+
+
+
+
+/*
+    The background for tabs used in the product pages.
+*/  
+.wy-inner-page-background{
+    background: white;
+}
+
+
+/*
+    Stying for the paid customer div. To align it to the center.
+*/
+.wy-paid-customer{
+    padding-top: 30px;
+}
+
+#monyog-linux-download-tab .wy-paid-customer{
+    padding-top: 100px;
+}
+
+
+
+
+
+/*
+    Styling fors checklists.
+*/
+
+
+/*
+    A checklist.
+*/
+.wy-checklist{
+    list-style: none;
+}
+/*
+    Styling for the list items in a checklist.
+*/
+.wy-checklist, .wy-checklist li{
+    color: inherit;
+}
+
+.wy-checklist li,
+.wy-checklist li span{
+    line-height: 31px;
+}
+
+
+
+
+
+/*
+    Styling for quick links.
+*/
+
+.wy-quick-link{
+    width: 457px;
+    height: 96px;
+}
+
+.wy-quick-link div{
+    padding-left: 30px;
+    padding-top:20px;
+}
+
+.wy-quick-link-text{
+    margin-top: -20px;
+}
+
+
+.wy-img-button.wy-quick-link-img-button{
+    height:52px;
+    width:49px; 
+    background-image: url("../images/quick-links-sprites.png");
+}
+
+.cm-icons {background: url('/images/customer-area-sprites.png?v=1') no-repeat scroll transparent;}
+
+
+
+/*
+    Styling for the download form.
+*/
+
+#download-form-container{
+    height: 160px;
+    width: 600px;
+    padding:30px;
+    vertical-align: middle;
+    background-color: #F6F6FC;
+    position: relative;
+}
+
+#download-form-container input{
+    border:1px solid #b8b8be;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 350px;
+    height: 42px;
+    font-size: 13px;
+}
+
+
+#download-form-container .wy-button{
+    width: 200px;
+    height: 42px;
+    line-height: 42px;
+}
+
+
+
+
+
+
+/*
+    Styling for the email form.
+*/
+#email-form-container, #email-form-container-visifire{
+    width: 485px;
+    height: 465px;
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right:30px;
+    background-color: #f6f6fc;
+    vertical-align: middle;
+}
+
+#email-form-container textarea, #email-form-container-visifire textarea,
+#email-form-container input, #email-form-container-visifire input{
+    height:42px;
+    padding-left: 15px;
+    width: 205px;
+    padding-right: 15px;
+    border:1px solid #b8b8be;
+    font-size: 13px;
+}
+
+
+#email-form-container .heading, #email-form-container-visifire .heading{
+    font-weight: bold;
+    font-size: 24px;
+}
+
+#email-form-container .personal, #email-form-container-visifire .personal{
+    width: 452px;
+}
+
+#email-form-container textarea, #email-form-container-visifire textarea {
+    height: 120px;
+    padding: 15px;
+    resize: none;
+}
+
+#email-form-container .wy-button, #email-form-container-visifire .wy-button{
+    height:42px;
+    width:133px;
+    line-height: 42px;
+}
+
+#email-error{
+    padding-top:20px;
+}
+
+
+
+/*
+    Styling for image buttons.
+*/
+/*
+The following are ID based selectors. They are IDs of image buttons. These 
+buttons use a common sprite. The background position attribute enables the
+icons to display its image.
+*/
+.wy-img-button{
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    background-image: url("../images/sprite-monyog.png");
+}
+
+.wy-help-icon {
+    background-position: -392px  -196px;
+    vertical-align: middle;
+    float: right;
+    height: 18px;
+    width: 18px;
+    margin: 5px 25px 0px -35px;
+    cursor: pointer;
+}
+
+#wy-success-icon {
+    background-position: -94px -330px;
+    vertical-align: middle;
+    height: 55px;
+    margin-right: 5px;
+    width: 40px;
+}
+
+#wy-windows-icon{
+    background-position: -75px 0px;
+    vertical-align: middle;
+    height:40px;
+}
+
+#wy-linux-icon{
+    background-position: -8px 5px;
+    vertical-align: middle;
+    height: 50px;
+}
+
+#wy-alert-icon {
+    background-position:  -56px  -5px;
+    width:30px;
+    height:24px;
+    vertical-align: middle;
+    display: inline-block;
+}
+#wy-user-icon {
+    background-position:  -4px  0px;
+    width:35px;
+    height:30px;
+    vertical-align: middle;
+    display: inline-block;
+    float: left;
+    margin-right: 15px;
+}
+
+#wy-cart-icon {
+    background-position: -68px  -143px;
+    vertical-align: middle;
+    float: left;
+    height: 22px;
+    width: 26px;
+}
+
+#wy-cart-icon, #minicart, #minicart_count { cursor: pointer;}
+
+#tooltip-arrow {
+    background-position: -321px 180px;
+    vertical-align: middle;
+    float: left;
+    height: 22px;
+    clear: both;
+    margin-left: 45px;
+    display: none;
+    z-index: 999992;
+    position: relative;
+}
+
+#contact-us{
+    background-position: -200px -192px;
+    height: 30px;
+    width: 30px;
+}
+
+.selected.radio-button{
+    background-position: -1px -60px;
+}
+
+
+.unselected.radio-button{
+    background-position: -70px -60px;
+}
+
+.selected{
+    background-position: -400px -65px;
+    width:40px;
+    height:40px;
+}
+
+.unselected{
+    background-position: -400px 2.5px;
+    width:40px;
+    height:40px;
+}
+
+.big-tick{
+    background-position: -94px -321px;
+    width:50px;
+    height:50px;
+}
+
+.tick-mark {
+    background-position: -245px -75px;
+    width: 20px;
+    height: 20px;
+}
+
+.tick-mark-black {
+    background-position: -220px -75px;
+    width: 20px;
+    height: 20px;
+}
+
+/*
+    Styling for the content wrapper.
+*/
+.wy-content-wrapper *{
+    overflow: hidden;
+}
+
+
+
+/*
+    Stying for links.
+*/
+a,
+.wy-content-wrapper a{
+    color: #00458e;
+    text-decoration: none;
+}
+
+a.underlined:hover,
+.wy-content-wrapper a.underlined:hover{
+    text-decoration: underline;
+}
+
+
+
+/*
+.wy-content-wrapper a.underlined{
+    text-decoration: underline;
+}*/
+
+
+/*
+    The background of the content wrapper.
+*/
+.wy-content-wrapper{
+    background: #f2f8fb;
+    padding-bottom:105px;
+}
+
+
+/*
+    Styling for testimonials.
+*/
+.wy-testimonial .wy-testimonial-text,
+.wy-testimonial-text,
+*.wy-testimonial-author,
+*.wy-testimonial-author-company{
+    font-family: "proxima-nova";
+    font-style: italic;
+}
+
+.wy-testimonial-text,
+.wy-testimonial-author,
+.wy-testimonial-author-company{
+    font-family: "proxima-nova";
+    width: 410px;
+    padding-right: 5px;
+}
+
+.wy-testimonials-section  .wy-testimonial-text,
+.wy-testimonials-section  .wy-testimonial-author,
+.wy-testimonials-section  .wy-testimonial-author-company{
+    width: 350px;
+}
+
+.wy-testimonial-long .wy-testimonial-text{
+    position: relative;
+    width: 815px;
+    font-style: italic;
+}
+
+.wy-testimonial-bottom{
+    position:absolute;
+}
+
+.wy-relative{
+    position: relative;
+}
+
+.wy-testimonial-long,
+.wy-testimonial-comment{
+    background-color: #f2f8fb;
+}
+
+.wy-font-georgia,
+.wy-testimonial-author.wy-font-level-3{
+    font-weight: bold;
+    /*    font-family: georgia;*/
+}
+
+
+.wy-small-right-padding{
+    padding-right: 5px;
+}
+
+
+.bottom-speech-marker{
+    position:absolute;
+    width: 50px;
+    height: 43px;
+    background-position: -112px -190px;
+}
+
+.tooltip-bottom-speech-marker{
+    position:absolute;
+    width: 50px;
+    height: 30px;
+    background-position: -34px -316px;
+}
+
+.bottom-speech-marker-holder{
+    position:relative;
+    width: 130px;
+    height:43px;
+}
+
+
+
+/*
+    Styling for the video.
+*/
+.wy-video-image{
+    border: solid 10px black;
+}
+
+
+
+
+/*
+    Styling for the article timestamp
+*/
+
+article .timestamp{
+    color: #757575;
+}
+
+article a{
+    font-size: 21px;
+    line-height: 30px;
+}
+
+article p{
+    font-size: 20px;
+}
+
+
+
+
+
+/*
+    Styling for resellers.
+*/
+.wy-reseller{
+    width: 400px;
+    height: 100px;
+}
+
+.wy-reseller-logo{
+    width: 100px;
+    height: 100px;
+}
+
+.wy-reseller-description{
+    width: 250px;
+}
+
+
+
+
+/*
+    Styling for heights and widths
+*/
+.wy-min-container-height{
+    height: 100%;
+}
+/*
+    Classes to maximize height and width of elements.
+*/
+.wy-full-width{
+    width:100%;
+}
+.wy-full-height{
+    width:100%;
+}
+
+
+
+
+
+
+
+
+/*
+    Styling for miscellaneous things.
+*/
+
+/*
+    Consider for removal
+*/
+.wy-white-border{
+    border: 1px solid white;
+}
+/*Image and definition. For MONyog and SQLyog.*/
+.wy-image-plus-def{
+    font-size:28px;
+    height:100px;
+}
+/*
+    Consider for removal.
+*/
+select{
+    display: inline-block;
+    color:white;
+}
+#webyog-search{
+    height: 50px;
+}
+.wy-hidden{
+    display: none;
+}
+dd{
+    display: block;
+}
+#help-container{
+    height: 720px;
+    width: 100%;
+    border: 1px solid white;
+}
+.thumbnail{
+    border:1px solid #6badf6;
+    width: 420px;
+    height: 280px;
+    position:relative;
+}
+
+.thumbnail .wy-img-button{
+    position: absolute;
+    bottom:0px;
+    right:0px;
+    height: 80px;
+    width: 80px;
+    background-position: -196px -224px;
+}
+
+.wy-bold{
+    font-weight: bold;
+}
+/*
+    Class to underline text.
+*/
+.wy-underlined{
+    border-bottom: #bcd0e4 solid 1px;
+}
+/*
+    Class to create table display.
+*/
+.wy-table-display{
+    display:table;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+    Styling for borders.
+*/
+.wy-thin-top-border {
+    border-top: 1px solid #8CCBF0;
+}
+
+.wy-top-border {
+    border-top: 3px solid #F2F8FB;
+}
+
+
+
+/*
+    Styling for the OLark Box
+*/
+#contact-div{
+    background-color: #00458e;
+    position: fixed;
+    right: 10px;
+    bottom: 85px;
+    padding:5px;
+    height: 30px;
+    vertical-align: middle;
+}
+
+#contact-div span{
+    vertical-align: middle;
+    line-height:30px;
+}
+
+.wy-body .habla_topbar_div_normal {
+    background: none repeat scroll 0 0 #00458E;
+    color: #FFFFFF;
+    padding: 4px;
+}
+
+.wy-body .habla_button_a_normal {
+    background-color: #00458E;
+    color: #FFFFFF;
+}
+
+.wy-body .habla_conversation_div {
+    background: none repeat scroll 0 0 #DDF4FF;
+    border-width: 0px;
+    color: black;
+    height: 155px;
+    line-height: 1.5em;
+    padding: 3px 3px 3px 23px;
+}
+
+
+.wy-body .habla_wcsend_field {
+    background: none repeat scroll 0 0 white;
+    font-family: verdana,arial,helvetica;
+    font-size: 12px;
+    height: 24px;
+    margin: 0;
+    overflow: auto;
+    padding: 1px 3px;
+    vertical-align: text-top;
+    width: 234px;
+}
+
+.wy-body #habla_beta_container_do_not_rely_on_div_classes_or_names{
+    right: 100px;
+}
+.wy-body .habla_chatform_form {
+    background: none repeat scroll 0 0 #DDF4FF;
+    margin: 0;
+    padding: 0;
+}
+.wy-body .habla_wcsend_input_normal {
+    border: 0;
+}
+
+.wy-body #habla_window_div{
+    bottom: 0px !important;
+    right: 0px !important;
+    margin: 0 !important;
+    position: fixed;
+}
+
+
+#checkout-product-list tr { border-bottom: 1px solid #c9c9c9; border-collapse: collapse;}
+
+/* Shopping cart css */
+.wy-checkout-button {width: 75px !important; height: 25px !important; line-height: 25px !important; cursor: pointer;}
+.wy-minicart-section { width: 100px;}
+.wy-minicart-section a{ display: inline-block; width: 150px;}
+.wy-minicart-section a div{ float: left; display: inline-block; margin-left: 5px;}
+.minicart-section { width: 100px; margin-left:250px;}
+.minicart-section-inner { margin-top: 0px !important;}
+.minicart-section-inner a{color:  #fff; text-decoration: underline; }
+#coupon-code-block {border: 1px solid #C9C9C9; width:433px;}
+#coupon-code-block input[type="text"] {border: 0px !important; width:323px !important; float: left;}
+#coupon-code-block input[type="button"] {border: 0px !important; width:102px !important; height: 28px; float: left; cursor: pointer;}
+
+#tooltip-content *{
+    overflow: visible;
+    font-size: 12px !important;
+}
+#tooltip-content #minicart-product-list tr td{ padding-bottom: 0px; border: 0px solid red;}
+#tooltip-content #minicart-product-list input[type="text"]{ width: 10px; height: 30px; padding: 0px 10px 0px 10px; background: #fff;}
+#tooltip-content {
+    padding: 10px 10px 10px 10px;
+    display: none;
+    z-index: 999991;
+    position: absolute;
+    width:350px;
+    clear: both;
+    float: right;
+    background: #d3e9f6;
+    margin-top: 40px;
+    border: 1px solid #9bccea;
+    min-height: 135px;
+}
+.minicart-delete-button {
+    background-position: -365px 180px;
+    vertical-align: middle;
+    float: left;
+    height: 16px;
+    width: 16px;
+    border: 0px solid red;
+}
+
+.stop-button {
+    background-position: -365px 150px;
+    vertical-align: middle;
+    float: left;
+    height: 16px;
+    width: 16px;
+    margin:7px 10px 0px 5px;
+    border: 0px solid red;
+}
+
+#tooltip-content .p_quantity { height:20px; line-height: 20px; width: 18px; font: inherit; font-size: inherit; padding:2px; border: 1px solid #c9c9c9 !important; display: inline-block; text-align: center !important;}
+
+#tooltip-content .increase-quantity-button {background-position:  -187px  -40px; width: 15px; height:14px; margin: 0px 0px 0px 0px;}
+#tooltip-content .decrease-quantity-button {background-position:  -187px  -53px; width: 15px; height:14px; margin: -4px 0px 0px 0px;}
+
+.card-icon-text-left {line-height: 25px; margin-left: -81px; float: left;}
+.card-icon-text-right {line-height: 25px; margin-left: 5px; float: left;}
+.card-icons {
+    background: url('/images/card-icons.png') no-repeat scroll transparent;
+    height: 28px;
+    margin: 0px 5px 0px 0px;
+    display: inline-block;
+    border: 0px solid red;
+}
+#card-icons-master { background-position:  -9px  -107px; width: 45px; margin: 0px 5px 0px 5px;}
+#card-icons-visa { background-position:  -61px  -107px; width: 45px;}
+#card-icons-discover { background-position:  -114px  -107px; width: 45px;}
+#card-icons-american-express { background-position:  -166px  -107px; width: 46px;}
+#card-icons-paypal { background-position:  -9px  -139px; width: 45px;}
+.increase-quantity-button {background-position:  -187px  -40px; width: 15px; height:15px; margin: 0px 0px 0px 0px;}
+.decrease-quantity-button {background-position:  -187px  -53px; width: 15px; height:15px; margin: 0px 0px 0px 0px;}
+.p_quantity { height:18px; width: 25px; font: inherit; font-size: inherit; overflow: visible !important; overflow-x: visible !important; overflow-y: visible !important; padding:5px; border: 0px solid green; display: inline-block;}
+#qty-table tr, #qty-table tr td {padding: 0px !important; border-collapse: collapse; overflow: visible !important; }
+
+#data-div{ width: 550px; }
+
+table.normal tr{
+    height: 47px;
+}
+
+table.normal .heading{
+    background-color: #1D75D6;
+    height: 47px;
+}
+
+
+table.normal .customer-all-panel{
+    padding-left:40px;
+}
+
+table.normal .customer-all-panel.main{
+    padding-left:20px;
+}
+
+#wy-footer-wrapper a:hover{
+    text-decoration: underline;
+}
+
+.wy-minicart-section {display: none;}
+
+#side-a {
+    float: left;
+    width: auto;
+}
+
+#side-b {
+    float: left;
+    width: auto;
+}
+
+#content {
+    float: left;
+    width: auto;
+}
+.hover-edit-cart {cursor: pointer;}
+#emptyShoppingCart {display: none;}
+#emptycartmsg {padding-left: 35px; padding-top: 30px; }
+#finalShoppingCart {min-height: 235px;}
+
+.wy-watermark{
+    color: #c9c9c9;
+}
+
+.wy-error-message-div.wy-font-level-1{
+    font-size: 50px;
+    line-height: 55px;
+}
+
+.wy-error-message-div.wy-font-level-2{
+    font-size: 20px;
+}
+
+
+.ajax-spinner{
+    display:none;
+    width:32px;
+    position:absolute;
+    z-index:500;
+    bottom:41%;
+    margin-left:45%;
+    border:0px solid red
+}
+
+#cse-search-results{
+    max-height: 1400px;
+}
+
+.wy-content-wrapper ol,
+.wy-content-wrapper ol li{
+    overflow: visible;
+}
+
+.wy-paid-customer-beta{
+    padding-top: 60px;
+}
+
+#monyog-linux-download-tab .wy-paid-customer-beta{
+    padding-top: 130px;
+}

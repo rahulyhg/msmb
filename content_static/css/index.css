@@ -1,0 +1,160 @@
+/*
+    Styling for the wrapper classes used on this page.
+*/
+#main-wrapper{
+    min-height: 100%;
+    margin-bottom: -64px;
+}
+#customers-wrapper{
+    background: #285bab;
+    border-top: 1px solid #1b457a;
+    border-bottom: 1px solid #1b457a;
+    top: 150px;
+    left: 0px;
+    height: 301px;
+}
+#products-wrapper{
+    left: 0px;
+    height: 400px;
+}
+#products-wrapper *{
+    overflow: visible;
+}
+
+
+/*
+    Styling for the customer wrapper.
+*/
+#two-million{
+    font-size: 50px;
+}
+#users{
+    font-size: 50px;
+}
+#cust-count{
+    font-size: 42px;
+}
+#companies{
+    font-weight: 600;
+    font-size: 42px;
+}
+#cust-count,
+#companies,
+#our-customers-text{
+    color: #cde1ec;
+}
+#use-our-tools{
+    color: #73C0FF;
+    font-size: 26px;
+    line-height: 36px;
+    margin-top: -10px;
+}
+#our-customers-text{
+    padding-top: 24px;
+    font-weight: bold;
+    font-size: 38px;
+}
+
+
+
+
+
+/*
+    Styling for the carousel.
+*/
+.slideshow{
+    z-index: 1;
+    text-align: right;
+    float: right;
+    overflow: hidden;
+}
+#nav a {
+    background: url("../images/carousel-controller.png") no-repeat scroll 0px 0 transparent;
+    border: 0 none;
+    display: inline-block;
+    height: 10px;
+    margin-right: 0;
+    outline: 0 none;
+    margin-top: 10px;
+    padding: 3px 3px 3px 3px;
+    text-indent: -9999em;
+    width: 10px;
+}
+#nav a.activeSlide {
+    background: url("../images/carousel-controller.png") no-repeat scroll -15px 0px transparent;
+}
+#nav a:focus { 
+    outline: medium none; 
+}
+#nav a {
+    color: transparent;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+/*
+    Styling for the product wrapper.
+*/
+/*
+    a thin div containing a vertical line.
+*/
+.wy-divider{
+    margin-top:10px;
+    width: 110px;
+    height:320px;
+    float: left;
+    background: url("../images/vertical-line.png") repeat-y center ;
+}
+/*
+    Styling for images in the product wrapper.
+*/
+.image{
+    float: left;
+    vertical-align: middle;
+    padding: 0px 0px 10px 0px;
+}
+/*
+    Styling for an image plus definition tab in the product wrapper.
+*/
+.image-plus-def{
+    font-size:28px;
+    height:100px;
+}
+/*
+    Styling for a definition in the product wrapper.
+*/
+#products-wrapper .def{
+    float: left;
+    vertical-align: middle;
+    font-size: 28px;
+    line-height: 66px;
+    margin-left: 10px;
+    font-weight: 600;
+    overflow: visible;
+}
+.product-tab{
+    float: left;
+}
+.for-whom{
+    padding-bottom:10px;
+    font-size: 38px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+.text-description{
+    height:100px;
+    font-size: 15px;
+    line-height: 26px;
+    margin-top: -10px;
+
+}
+.target-audience{
+    color: #2d73d3; 
+}

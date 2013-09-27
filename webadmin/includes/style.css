@@ -1,0 +1,168 @@
+/* Style Sheet Descriptions */
+
+/* Color Schemes */
+body		{	background-color:#FFFFFF; margin-width:0px; margin-height:0px; margin-top:0px; margin-left:0px;	}		/*	Body  */
+.headerbg	{	background-color:#FFFFFF;	}		/*	Header  */
+.menubg		{	background-color:#f1ddb9;	}		/*	Menu  */
+.titlebg	{	background-color:#e4d0b9;	}		/*	Title  */
+.subtitlebg	{	background-color:#e2e7d4;	}		/*	Subtitle  */
+.contentbg	{	background-color:#FFFFFF;	}		/*  Content  */
+.tblBorder	{	background-color:#f0dc99;	}		/*	Table Border  */
+.tblHead	{	background-color:#ffebbe;	}		/*	Table Header Row  */
+.tblContent	{	background-color:#FFFFFF;	}		/*	Table Content Row  */
+.tblBorder1	{	background-color:#889FB1;	}		/*	Inner Table Border  */
+.txtcbomultiple		 { font-family:Verdana; font-size: 11px; color: #000000; height: 70px; width: 250px; border: 1px solid #B5B5B5; background-color:#ffffff;	}
+
+td		{	font-family:Verdana; font-size:11px; color: #000000;	}		/*  Normal Text  */
+
+.title		{	color: #000000; font-weight:bold;	}		/*  Title  */
+.subtitle	{	color: #000000; font-weight:bold;	}		/*  Sub Title  */
+.session	{	color: #CC0000; font-weight:bold;	}		/*  Session  */
+
+/* Anchor Tag */
+a			{	font-family:Verdana; font-size:11px; color:#000000; text-decoration: underline;		}
+a:hover		{	font-family:Verdana; font-size:11px; color:#cd2530; text-decoration: none;			}
+
+/* Menu Anchor Tag */
+a.menu			{	font-family:Verdana; font-size:11px; font-weight:bold; color:#dc5d0e; text-decoration: none;		}
+a.menu:hover	{	font-family:Verdana; font-size:11px; font-weight:bold; color:#3c2c84; text-decoration: none;		}
+a.menu1			{	font-family:Verdana; font-size:11px; font-weight:bold; color:#FFFFFF; text-decoration: none;		}
+a.menu1:hover	{	font-family:Verdana; font-size:11px; font-weight:bold; color:#FFFFFF; text-decoration: none;		}
+
+/* Textbox */
+.txtbox
+	{
+	color : #000000;
+	font-family:Verdana;
+	font-size:11px;
+	height: 20px;
+	width: 180px;
+	border: 1px #f0dc99 solid;
+	background-color:#ffffff;
+	}
+/* Date field */	
+.datebox
+	{
+	color : #000000;
+	font-family:Verdana;
+	font-size:11px;
+	height: 20px;
+	width: 155px;
+	border: 1px #d7d7d5 solid;
+	background-color:#ffffff;
+	}	
+
+/* Button */
+.butten
+	{
+	color : #FFFFFF;
+	font-family:Verdana;
+	font-size:11px;
+	height: 20px;
+	border: 1px #000000 solid;
+	background-color:#7e2618;
+	cursor:hand;
+	text-align: center;
+	vertical-align: top;
+	font-weight:bold;
+	}
+.butten_rem
+	{
+	color : #FFFFFF;
+	font-family:Verdana;
+	font-size:11px;
+	height: 20px;
+	width:160px;
+	border: 1px #000000 solid;
+	padding:2px 5px 2px 2px;
+	background-color:#7e2618;
+	cursor:hand;
+	text-align: center;
+	vertical-align: top;
+	font-weight:bold;
+	}
+/* Combobox */
+.cmbbox
+	{
+	color : #000000;
+	font-family:Verdana;
+	font-size:11px;
+	height: 20px;
+	width: 180px;
+	border: 1px #d7d7d5 solid;
+	background-color:white;
+	}
+
+/* Radio Button */
+.radio
+	{
+	color : #000000;
+	font-family:Verdana;
+	font-size:11px;
+	height: 12px;
+	width: 12px;
+	}
+
+/* TextArea */
+.txtarea
+	{
+	color : #000000;
+	font-family:Verdana;
+	font-size:11px;
+	height: 72px;
+	width: 180px;
+	border: 1px #d7d7d5 solid;
+	background-color:#FFFFFF;
+	}
+
+#TableContents
+	{
+	position:relative;
+	overflow:auto;
+	height:350px;
+	width: 520px;
+	scrollbar-shadow-color : #000000;
+	}
+.txtMobilebox
+	{
+	color : #000000;
+	font-family:Verdana;
+	font-size:11px;
+	height: 20px;
+	width: 140px;
+	border: 1px #C8D7FF solid;
+	background-color:#ffffff;
+	}	
+	
+.txtpasswordbox	
+	{
+	color : #000000;
+	font-family:Verdana;
+	font-size:11px;
+	height: 20px;
+	width: 80px;
+	border: 1px #C8D7FF solid;
+	background-color:#ffffff;
+	}
+	
+.scountrycode	
+	{
+	color : #000000;
+	font-family:Verdana;
+	font-size:11px;
+	height: 20px;
+	width: 80px;
+	border: 1px #C8D7FF solid;
+	background-color:#ffffff;
+	}		
+
+.txtboxage
+	{
+	color : #000000;
+	font-family:Verdana;
+	font-size:11px;
+	height: 20px;
+	width: 50px;
+	border: 1px #C8D7FF solid;
+	background-color:#ffffff;
+	}

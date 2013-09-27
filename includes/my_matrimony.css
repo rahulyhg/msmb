@@ -1,0 +1,48 @@
+.homeinbody				{ margin:0px; background:url(../images/main_bg_inner.jpg) repeat-x; }
+.menuinnerbg			{ background-color:#fff9d4; border:1px solid #fbe292; }
+.menuinnerbg a 			{ background:url(../images/menu_line_bg.jpg) no-repeat 0px 24px; width:165px; height:22px; display:block; padding:5px 0px 0px 5px; font-family:arial; font-size:12px; color:#333333; text-decoration:none; }
+.menuinnerbg a:hover	{ background:url(../images/menu_box_bg.jpg) no-repeat 0px 0px; width:165px; height:22px; display:block; padding:5px 0px 0px 5px; font-family:arial; font-size:12px; color:#db1a15; text-decoration:none; }
+a.ewe					{ ackground:url(../images/menu_line_bg.jpg) no-repeat 0px 24px; width:165px; height:22px; display:block; padding:5px 0px 0px 5px; font-family:arial; font-size:12px; color:#333333; text-decoration:none; }
+a.ewe:hover				{ background:url(../images/menu_box_bg.jpg) no-repeat 0px 0px; width:165px; height:22px; display:block; padding:5px 0px 0px 5px; font-family:arial; font-size:12px; color:#db1a15; text-decoration:none; }
+
+
+.titlebg				{ background:url(../images/inner_title_bg.jpg) top left no-repeat; width:164px; height:31px;}
+h1.title				{ font-family:Arial; font-size:16px; color:#dd1815; font-weight:bold; margin:0px; padding:7px 0px 0px 0px; text-align:center;}
+.menuend				{ background-color:#fcd15c; border-right:1px solid #ad590a; border-left:1px solid #ad590a; border-bottom:1px solid #ad590a;}
+a.orng2					{ font-family:Arial; font-size:15px; color:#fbf7d1;  text-decoration:none;}
+a.orng2:hover			{ font-family:Arial; font-size:15px; color:#fbf7d1; text-decoration:none;}
+
+#imgNum					{ margin:0px; padding:0px 5px 0px 5px; text-align:center;}
+.mbdr					{ border:#c0ba84 1px solid; }
+.btxt					{ font-family:Arial; font-size:12px; color:#313131;}
+a.orng					{ font-family:Arial; font-size:13px; color:#f57905; text-decoration:none;}
+a.orng1					{ font-family:Arial; font-size:13px; color:#ff0000; text-decoration:none;}
+a.orng1:hover			{ font-family:Arial; font-size:13px; color:#313131; text-decoration:none;}
+a.orng:hover			{ font-family:Arial; font-size:13px; color:#313131; text-decoration:none;}
+a.idclr					{ font-family:Arial; font-size:12px; color:#dd1815; text-decoration:underline;}
+a.idclr:hover			{ font-family:Arial; font-size:12px; color:#dd1815; text-decoration:none;}
+.mmachbg				{ background:url(../images/dsn_title.gif) top left no-repeat; height:25px; }
+.morebg					{ background:url(../images/dsn_more.gif) top left no-repeat; height:23px; }
+.mtxt					{ background-color:#fffdeb; border-left:#c2bc88 solid 1px; border-right:#c2bc88 solid 1px;}
+h2.subtitle				{ font-family:Arial; font-size:16px; color:#fbf7d1; font-weight:bold; margin:0px;}
+.mname					{ font-family:arial; font-size:9px; color:#8f830d;}
+a.idmach				{ font-family:arial; font-size:9px; color:#ff9400; font-weight:bold; text-decoration:underline;}
+a.idmach:hover			{ font-family:arial; font-size:9px; color:#ff9400; font-weight:bold; text-decoration:none;}
+a.moreid				{ font-family:Arial; font-size:12px; color:#dd1915; font-weight:bold; text-decoration:none; }
+a.moreid:hover			{ font-family:Arial; font-size:12px; color:#333333; font-weight:bold; text-decoration:none; }
+.recsent				{ background:url(../images/dsn_title_2.gif) top left no-repeat; height:25px;}
+.rtxt					{ background-color:#fbf7d1; border-left:#c2bc88 solid 1px; border-right:#c2bc88 solid 1px;  border-bottom:#c2bc88 solid 1px;}
+.expressbg				{ background:url(../images/icon_bg.gif) no-repeat left top; width:178px; height:36px; font-family:Arial; font-size:12px; color:#dd1915;}
+.benifitbg				{  font-family:Arial; font-size:13px; color:#ba3501; }
+.benifitbg p			{ margin:0px; padding:3px 0px 3px 0px;}
+.member					{ font-family:Arial; font-size:14px; color:#d16c00;}
+h3.topic				{ font-family:arial; font-size:12px; color:#7e9e10; font-weight:bold; margin:0px; }
+.topictitlebg			{ background: url(../images/topic_title_bg.jpg) left top no-repeat; width:575px; height:30px; }
+a.print				    { font-family:Arial; font-size:12px; color:#dd1915;  text-decoration:none;}
+a.print:hover			{ font-family:Arial; font-size:12px; color:#333333; text-decoration:underline;}
+.tbdrlft				{ border-left:solid 1px #ced8af;  background-color:#f3fae6; }
+
+
+.selectbold				{ font-family:Arial; font-size:13px; color:#000000; font-weight:bold; text-decoration:none;}
+.select					{ font-family:Arial; font-size:12px; color:#000000; text-decoration:none;}
+
