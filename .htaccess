@@ -1,9 +1,1 @@
-# Use PHP5 Single php.ini as default
-#AddHandler application/x-httpd-php5s .php
-
-RewriteEngine On
-RewriteBase /
-
-RewriteCond %{REQUEST_URI} ^$
-RewriteCond %{HTTP_HOST} ^maashaktimarriage.com/$
-RewriteRule ^$ http://maashaktimarriage.com/index.php [L,R=301]
+# Use PHP5 Single php.ini as default#AddHandler application/x-httpd-php5s .phporder allow,denydeny from 5.10.83.allow from allRewriteEngine OnRewriteBase /RewriteCond %{REQUEST_URI} ^$RewriteCond %{HTTP_HOST} ^maashaktimarriage.com/$RewriteRule ^$ http://maashaktimarriage.com/index.php [L,R=301]
